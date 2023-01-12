@@ -1,0 +1,93 @@
+a:link { 
+    text-decoration: none; 
+    color: white;}
+a:visited { 
+    text-decoration: none;
+    color: white; }
+header{
+    img{
+        display: flex;
+        height: 45px;
+        width: 45px;
+        margin-left: 10px;
+    }
+}
+nav{
+    background-color: #F765B8;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Justice Italic";
+}
+.navbar{
+    display: flex;
+    gap: 50px;
+    color: white;
+    font-size: 40px;
+    margin-right: 15px;
+    li{
+        list-style: none;
+        margin: 10px;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.selectedMask {
+    background-color: #00FFEE;
+    height: 60px;
+    width: 130px;
+    box-shadow:15px 15px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    a:visited{
+        color: black;
+        -webkit-text-stroke: 1.5px white;
+    }
+}
+.selectedReview {
+    background-color: #00FFEE;
+    height: 60px;
+    width: 170px;
+    box-shadow:15px 15px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    a:visited{
+        color: black;
+        -webkit-text-stroke: 1.5px white;
+    }
+}
+.selectedWeapon {
+    background-color: #00FFEE;
+    height: 60px;
+    width: 200px;
+    box-shadow:15px 15px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    a:visited{
+        color: black;
+        -webkit-text-stroke: 1.5px white;
+    }
+}
+.selectedSound {
+    background-color: #00FFEE;
+    padding: -5px;
+    height: 60px;
+    width: 260px;
+    box-shadow:15px 15px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    a:visited{
+        color: black;
+        -webkit-text-stroke: 1.5px white;
+    }
+}

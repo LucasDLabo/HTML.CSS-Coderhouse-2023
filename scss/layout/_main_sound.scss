@@ -1,0 +1,27 @@
+.soundBox{
+    background-color: #471758;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 20px solid white;
+    border-radius: 60px;
+}
+.listeners{
+    display: flex;
+    font-family: "Justice Italic";
+    font-size: 30px;
+    justify-content: flex-end;
+    color: white;
+    margin-right: 10px;
+    -webkit-text-stroke: 1.5px black;
+}
+.textRanking{
+    font-family: "Justice Italic" ;
+    color: white;
+    font-size: 60px;
+    -webkit-text-stroke: 2.5px black;
+}
