@@ -13,7 +13,7 @@ En este curso, el objetivo principal será el desarrollar una página web desde 
 ------------
 
 ### Hotline Miami Fan Page
-![](https://cdn.discordapp.com/attachments/482724249723994122/1067563177635749908/Hotline_Miami_Logo_Bigger.png)
+![](https://cdn.discordapp.com/attachments/482724249723994122/1067578029263560756/Hotline_Miami_Logo_Bigger.png)
 
 Hotline Miami es una saga de videojuegos 2D shooter en donde deberás de eliminar a todos los enemigos del nivel para poder continuar con el siguiente. El mismo cuenta con múltiples desbloqueables, armas y, a mi gusto, un increíble OST.
 Por esto mismo, decidí enfocar mi primera página WEB en uno de mis videojuegos favoritos y poder mostrar diferentes puntos y contenido de Hotline Miami 1.
