@@ -165,6 +165,14 @@ body {
   .arrow:not(:hover) {
     transition: .3s; }
 
+.videoFlex {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center; }
+  .videoFlex iframe {
+    border: solid white 10px;
+    border-radius: 60px; }
+
 .indexBox {
   display: flex;
   font-family: "Justice Italic";
