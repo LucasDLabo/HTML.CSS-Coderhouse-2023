@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "Justice Italic";
+    src: url(../fonts/justiceital.ttf);
+}
+@font-face {
+    font-family: "Justice Condensed Outline";
+    src: url(../fonts/justicecondout.ttf);
+}
+@font-face {
+    font-family: "Justice Expanded";
+    src: url(../fonts/justiceexpand.ttf);
+}
+
+h2{
+    font-family: "Justice Expanded";
+    -webkit-text-stroke: 3px black;
+    color:#00FFEE;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-size: 5em;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    // padding: 60px;
+    text-align: center;
+}
+h3{
+    font-family: "Justice Italic";
+    color: white;
+    display: flex;
+    justify-content: start;    
+    align-items: flex-end;
+    font-size: 30px; 
+    margin-left: 65px;
+    -webkit-text-stroke:1.5px black ;
+}
