@@ -5,12 +5,12 @@
     }
     nav{
         height: 3.5rem;
-        width: 26.8rem;
+        // width: 26.8rem;
     }
     .navbar{
         font-size: 15px;
         gap: 0px;
-        width: 100%;
+        width: 100vw;
     }
     .selectedMask{
         background-color: unset;
@@ -50,7 +50,10 @@
     }
     h2{
         font-size: 50px;
-        padding: 30px;
+        padding: 10px;
+        margin: 0px;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
     }
     .indexBox{
         margin: 0px;
@@ -60,6 +63,20 @@
         flex-direction: column;
         img{
             height: 150px;
+        }
+    }
+    .HMdescription{
+        margin: 0px;
+        flex-direction: column-reverse;
+        font-size: 20px;
+    }
+    .videoFlex{
+        
+        iframe{
+            border-radius: 40px;
+            border: solid white 5px;
+            width: 370px;
+            height: 300px;
         }
     }
     .splitBar{
@@ -73,19 +90,19 @@
         gap: 30px;
     }
     .reviewCard{
-        width: 100%;
+        width: 90vw;
         height: 100px;
     }
     .maskCard{
-        width: 100%;
+        width: 90vw;
         height: 100px;
     }
     .weaponCard{
-        width: 100%;
+        width: 90vw;
         height: 100px;
     }
     .soundCard{
-        width: 100%;
+        width: 90vw;
         height: 100px;
     }
     // review.html
@@ -149,16 +166,14 @@
         "mask mask"
         "tau desc"
         ;
-        justify-items: auto;
         justify-content: center;
         align-items: center;   
         margin: 0px;
-        width: 26.8rem;
         margin-bottom: 30px;
         img{
             grid-area: mask;
             height: 10rem;
-            width: 27rem;
+            width: 100vw;
             aspect-ratio: 1;
             object-fit: contain;
             display: grid;
