@@ -14,9 +14,13 @@
     width: 4rem;
     rotate: 90deg;
     margin-bottom: 20px;
+    background-color: lightgray;
+    border: solid white 3px;
+    border-radius: 15px;
     &:hover{
         transition: .3s;
         transform: translate(-20px,0);
+
     }
     &:not(:hover){
         transition: .3s;
