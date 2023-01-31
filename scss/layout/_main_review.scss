@@ -1,8 +1,8 @@
 .imgLogo{
     background-color: white;
     border-radius: 30px;
-    height: 200px;
-    width: 400px;
+    height: 15vw;
+    width: 30vw;
     object-fit: contain;
     border: 5px solid black;
     aspect-ratio: 16/9;
@@ -23,12 +23,12 @@
         justify-content: end;    
         align-items: center;
         text-align: start;
-        font-size: 30px;
+        font-size: 2.2vw;
     }
 }
 .imgScore{
-    height: 100px;
-    width: 100px;
+    height: 7vw;
+    width: 7vw;
 }
 .opinionBox{
     background-color: #420043;
@@ -43,7 +43,7 @@
 .scoreBox{
     margin: 30px;
     display: flex;
-    gap: 30px;
+    gap: 2vw;
     font-family: "Arial";
     color: white;
     font-size: 70px;
@@ -51,31 +51,32 @@
 .redScore{
     background-color: red;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 6vw;
+    height: 6vw;
     text-align: center;
-    font-size: 60px;
+    font-size: 4vw;
     color: white;  
 }
 .yellowScore{
     background-color: rgb(255, 217, 0);
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 6vw;
+    height: 6vw;
     text-align: center;
-    font-size: 60px;
+    font-size: 4vw;
     color: grey;  
 }
 textarea{
-    width: 60rem;
+    width: 70vw;
+    font-size: 1.2vw;
 }
 .greenScore{
     background-color: green;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 6vw;
+    height: 6vw;
     text-align: center;
-    font-size: 60px;
+    font-size: 4vw;
     color: white;  
 }
 .giveOpinion{
@@ -83,7 +84,7 @@ textarea{
     display: flex;
     margin-left: 60px;
     margin-right: 60px;
-    font-size: 50px;
+    font-size: 2.5vw;
     font-family: "Justice Italic";
     color: #FF00B5;
     align-items: center;

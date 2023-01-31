@@ -28,6 +28,8 @@ Por esto mismo, decidí enfocar mi primera página WEB en uno de mis videojuegos
 
 - [x] 5 HTML
 - [x] Diseño Responsive
+    - [x] Desktop
+    - [x] Laptop
     - [x] Mobile
     - [x] Tablet
 - [x] SEO

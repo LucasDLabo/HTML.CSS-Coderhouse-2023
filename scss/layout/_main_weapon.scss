@@ -4,21 +4,21 @@
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 40px;
-    gap: 50px;
+    gap: 2.5vw;
     img{
-        width: 150px;
-        height: 150px;
+        width: 11vw;
+        height: 11vw;
         object-fit: fill;
         border:5px solid white;
         border-radius: 20%;
         box-shadow: 10px 10px 10px black;
         &:hover{
-            transition: .1s;
-            width: 170px;
-            height: 170px;
+            transition: .2s;
+            width: 12vw;
+            height: 12vw;
         }
         &:not(:hover){
-            transition: .5s;
+            transition: .3s;
         }
     }
 }

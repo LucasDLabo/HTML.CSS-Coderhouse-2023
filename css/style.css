@@ -25,7 +25,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 5em;
+  font-size: 5vw;
   margin-top: 3rem;
   margin-bottom: 3rem;
   margin-right: 8rem;
@@ -38,7 +38,7 @@ h3 {
   display: flex;
   justify-content: start;
   align-items: flex-end;
-  font-size: 30px;
+  font-size: 2.5vw;
   margin-left: 65px;
   -webkit-text-stroke: 1.5px black; }
 
@@ -52,24 +52,26 @@ a:visited {
 
 header img {
   display: flex;
-  height: 45px;
-  width: 45px;
+  height: 3.5vw;
+  width: 3.5vw;
   margin-left: 10px; }
 
 nav {
   background-color: #F765B8;
-  height: 60px;
+  width: auto;
+  height: 4.5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: "Justice Italic"; }
 
 .navbar {
+  align-items: center;
   display: flex;
   gap: 50px;
   color: white;
   font-size: 40px;
-  margin-right: 15px; }
+  margin-right: 25px; }
   .navbar li {
     list-style: none;
     margin: 10px; }
@@ -78,39 +80,39 @@ nav {
 
 .selectedMask {
   background-color: #00FFEE;
-  height: 60px;
-  width: 130px;
+  height: 6vw;
+  width: 120px;
   box-shadow: 15px 15px black;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left; }
   .selectedMask a:visited {
     color: black;
     -webkit-text-stroke: 1.5px white; }
 
 .selectedReview {
   background-color: #00FFEE;
-  height: 60px;
-  width: 170px;
+  height: 6vw;
+  width: 160px;
   box-shadow: 15px 15px black;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left; }
   .selectedReview a:visited {
     color: black;
     -webkit-text-stroke: 1.5px white; }
 
 .selectedWeapon {
   background-color: #00FFEE;
-  height: 60px;
-  width: 200px;
+  height: 6vw;
+  width: 190px;
   box-shadow: 15px 15px black;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left; }
   .selectedWeapon a:visited {
     color: black;
     -webkit-text-stroke: 1.5px white; }
@@ -118,13 +120,13 @@ nav {
 .selectedSound {
   background-color: #00FFEE;
   padding: -5px;
-  height: 60px;
-  width: 260px;
+  height: 6vw;
+  width: 255px;
   box-shadow: 15px 15px black;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
+  justify-content: flex-start;
+  align-items: flex-end;
+  text-align: left; }
   .selectedSound a:visited {
     color: black;
     -webkit-text-stroke: 1.5px white; }
@@ -194,7 +196,7 @@ body {
   display: flex;
   font-family: "Justice Italic";
   color: white;
-  font-size: 2.2em;
+  font-size: 2.5vw;
   -webkit-text-stroke: 1.5px black;
   margin-right: 6rem;
   margin-left: 6rem;
@@ -206,16 +208,15 @@ body {
 .cardFlex {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 5vw;
   font-family: "Justice Italic";
-  font-size: 2.5rem;
+  font-size: 3vw;
   color: white;
   -webkit-text-stroke: 2px black;
   margin-bottom: 4rem;
   flex-wrap: wrap; }
 
 .reviewCard {
-  background-color: #DBFF00;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,13 +233,12 @@ body {
   box-shadow: 20px 20px 10px black; }
 
 .maskCard {
-  background-color: #DBFF00;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 6.5em;
   height: 9em;
-  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748285992960/thumb_mask.webp?width=480&height=480);
+  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748285992960/thumb_mask.webp?width=480&height=480), radial-gradient(circle, yellow 60%, #ff7a01 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -249,7 +249,6 @@ body {
   box-shadow: 20px 20px 10px black; }
 
 .weaponCard {
-  background-color: #DBFF00;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -266,13 +265,13 @@ body {
   box-shadow: 20px 20px 10px black; }
 
 .soundCard {
-  background-color: #DBFF00;
+  background-color: yellow;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 6.5em;
   height: 9em;
-  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748986441788/thumb_soundtrack_alter.png?width=480&height=480);
+  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748986441788/thumb_soundtrack_alter.png?width=480&height=480), linear-gradient(180deg, #c30060 13%, #15fff6 100%);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -317,8 +316,8 @@ body {
 .imgLogo {
   background-color: white;
   border-radius: 30px;
-  height: 200px;
-  width: 400px;
+  height: 15vw;
+  width: 30vw;
   object-fit: contain;
   border: 5px solid black;
   aspect-ratio: 16/9; }
@@ -339,11 +338,11 @@ body {
     justify-content: end;
     align-items: center;
     text-align: start;
-    font-size: 30px; }
+    font-size: 2.2vw; }
 
 .imgScore {
-  height: 100px;
-  width: 100px; }
+  height: 7vw;
+  width: 7vw; }
 
 .opinionBox {
   background-color: #420043;
@@ -358,7 +357,7 @@ body {
 .scoreBox {
   margin: 30px;
   display: flex;
-  gap: 30px;
+  gap: 2vw;
   font-family: "Arial";
   color: white;
   font-size: 70px; }
@@ -366,31 +365,32 @@ body {
 .redScore {
   background-color: red;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 6vw;
+  height: 6vw;
   text-align: center;
-  font-size: 60px;
+  font-size: 4vw;
   color: white; }
 
 .yellowScore {
   background-color: #ffd900;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 6vw;
+  height: 6vw;
   text-align: center;
-  font-size: 60px;
+  font-size: 4vw;
   color: grey; }
 
 textarea {
-  width: 60rem; }
+  width: 70vw;
+  font-size: 1.2vw; }
 
 .greenScore {
   background-color: green;
   border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  width: 6vw;
+  height: 6vw;
   text-align: center;
-  font-size: 60px;
+  font-size: 4vw;
   color: white; }
 
 .giveOpinion {
@@ -398,7 +398,7 @@ textarea {
   display: flex;
   margin-left: 60px;
   margin-right: 60px;
-  font-size: 50px;
+  font-size: 2.5vw;
   font-family: "Justice Italic";
   color: #FF00B5;
   align-items: center; }
@@ -426,11 +426,10 @@ textarea {
   display: flex;
   justify-content: start;
   align-items: center;
-  margin: 20px;
-  margin-right: 20px;
-  margin-left: 11.5rem; }
+  margin-bottom: 20px;
+  margin-left: 9vw; }
   .maskBox img {
-    width: 250px;
+    width: 18vw;
     aspect-ratio: 1;
     object-fit: contain;
     display: flex;
@@ -438,14 +437,12 @@ textarea {
     margin-right: 50px; }
 
 .backMask {
-  position: absolute;
-  top: 50px;
-  left: 12rem;
-  bottom: 40px;
-  height: 452rem;
-  right: 0px;
-  content: "";
-  width: 230px;
+  position: fixed;
+  top: -10px;
+  left: 8.9vw;
+  bottom: -10px;
+  height: auto;
+  width: 18vw;
   background: linear-gradient(90deg, #e28e17 0%, #e51671 100%);
   z-index: -1;
   border: solid white 9px; }
@@ -466,7 +463,7 @@ textarea {
   justify-content: center;
   align-items: flex-end;
   text-align: end;
-  font-size: 30px;
+  font-size: 2.5vw;
   margin: 20px;
   height: 160px; }
 
@@ -477,7 +474,7 @@ textarea {
   height: 160px;
   align-items: flex-end;
   text-align: start;
-  font-size: 30px;
+  font-size: 2.5vw;
   -webkit-text-stroke: 1.5px black; }
 
 .imgWeapon {
@@ -486,20 +483,20 @@ textarea {
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 40px;
-  gap: 50px; }
+  gap: 2.5vw; }
   .imgWeapon img {
-    width: 150px;
-    height: 150px;
+    width: 11vw;
+    height: 11vw;
     object-fit: fill;
     border: 5px solid white;
     border-radius: 20%;
     box-shadow: 10px 10px 10px black; }
     .imgWeapon img:hover {
-      transition: .1s;
-      width: 170px;
-      height: 170px; }
+      transition: .2s;
+      width: 12vw;
+      height: 12vw; }
     .imgWeapon img:not(:hover) {
-      transition: .5s; }
+      transition: .3s; }
 
 .soundBox {
   background-color: #471758;
@@ -512,25 +509,28 @@ textarea {
   margin-right: 10%;
   border: 20px solid white;
   border-radius: 60px; }
+  .soundBox iframe {
+    height: 20vw; }
 
 .listeners {
   display: flex;
   font-family: "Justice Italic";
-  font-size: 30px;
+  font-size: 3vw;
   justify-content: flex-end;
   color: white;
   margin-right: 10px;
-  -webkit-text-stroke: 1.5px black; }
+  -webkit-text-stroke: .18vw black; }
 
 .textRanking {
   font-family: "Justice Italic";
   color: white;
-  font-size: 60px;
-  -webkit-text-stroke: 2.5px black; }
+  font-size: 5vw;
+  -webkit-text-stroke: .2vw black; }
 
 footer {
   background-color: #471758;
   color: white;
+  width: auto;
   height: 30px;
   display: flex;
   align-items: center;
@@ -546,6 +546,20 @@ footer {
   color: white;
   font-size: 16px; }
 
+@media (max-width: 1005px) and (min-width: 801px) {
+  .navbar {
+    font-size: 4vw;
+    align-items: flex-start;
+    gap: 3.7vw; }
+  .selectedSound {
+    width: 26vw; }
+  .selectedMask {
+    width: 11.8vw; }
+  .selectedReview {
+    width: 15.8vw; }
+  .selectedWeapon {
+    width: 19.5vw; } }
+
 @media (min-width: 481px) and (max-width: 800px) {
   * {
     transition: none; }
@@ -558,7 +572,7 @@ footer {
     font-size: 3.7vw;
     gap: 0px;
     width: 100vw;
-    justify-content: center; }
+    justify-content: space-evenly; }
   .selectedMask {
     background-color: unset;
     box-shadow: none;
@@ -647,12 +661,14 @@ footer {
     margin-left: 30px;
     margin-right: 30px; }
     .reviewBox p {
-      margin-top: 0;
-      margin-bottom: 0;
-      font-size: 4vw;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      font-size: 4.2vw;
       text-align: center; }
   .imgScore {
-    margin-top: 0; }
+    margin-top: 0;
+    height: 15vw;
+    width: 15vw; }
   .giveOpinion {
     font-size: 30px;
     margin-right: 30px;
@@ -715,13 +731,14 @@ footer {
     margin-right: 5px;
     height: auto; }
   .description {
+    margin: 0px;
     grid-area: desc;
     font-family: "Justice Italic";
     color: white;
     height: auto;
     align-items: flex-end;
     text-align: start;
-    font-size: 3vw;
+    font-size: 3.3vw;
     -webkit-text-stroke: 1.1px black; }
   .backMask {
     position: none;
@@ -763,7 +780,7 @@ footer {
     font-size: 3.7vw;
     gap: 0px;
     width: 100vw;
-    justify-content: center; }
+    justify-content: space-evenly; }
   .selectedMask {
     background-color: unset;
     box-shadow: none;
@@ -784,16 +801,21 @@ footer {
     box-shadow: none;
     height: auto;
     width: auto; }
+  h3 {
+    margin-left: 30px;
+    font-size: 25px;
+    -webkit-text-stroke: 1.3px black; }
   .mainTitle {
     background-image: url(https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-size: cover;
     background-repeat: no-repeat;
-    display: grid;
     height: 100vh; }
   .center {
-    max-width: 100%;
-    max-height: 100vh;
+    width: 90vw;
+    height: auto;
     margin: auto; }
+  .arrow {
+    width: 60px; }
   h2 {
     font-size: 50px;
     padding: 10px;
@@ -830,7 +852,8 @@ footer {
     font-size: 20px; }
   .cardFlex {
     justify-content: center;
-    gap: 30px; }
+    gap: 30px;
+    font-size: 9vw; }
   .reviewCard {
     width: 90vw;
     height: 100px; }
@@ -851,12 +874,13 @@ footer {
     margin-left: 30px;
     margin-right: 30px; }
     .reviewBox p {
-      margin-top: 30px;
+      margin-top: 20px;
       margin-bottom: 30px;
       font-size: 22px;
       text-align: center; }
   .imgScore {
-    margin-top: 20px; }
+    height: 100px;
+    width: 100px; }
   .giveOpinion {
     font-size: 30px;
     margin-right: 30px;
@@ -949,7 +973,16 @@ footer {
       bottom: 0px;
       z-index: none; }
   .imgWeapon img {
-    height: 25vh;
+    aspect-ratio: 1/1;
+    height: auto;
     width: 35vw; }
+  .soundBox iframe {
+    height: 170px; }
+  .textRanking {
+    font-size: 50px;
+    -webkit-text-stroke: 1.5px black; }
+  .listeners {
+    font-size: 25px;
+    -webkit-text-stroke: 1.5px black; }
   footer p {
     font-size: 10px; } }

@@ -7,25 +7,30 @@ a:visited {
 header{
     img{
         display: flex;
-        height: 45px;
-        width: 45px;
+        // height: 45px;
+        // width: 45px;
+        height: 3.5vw;
+        width: 3.5vw;
         margin-left: 10px;
     }
 }
 nav{
     background-color: #F765B8;
-    height: 60px;
+    width: auto;
+    // height: 60px;
+    height: 4.5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: "Justice Italic";
 }
 .navbar{
+    align-items: center;
     display: flex;
     gap: 50px;
     color: white;
     font-size: 40px;
-    margin-right: 15px;
+    margin-right: 25px;
     li{
         list-style: none;
         margin: 10px;
@@ -36,13 +41,13 @@ nav{
 }
 .selectedMask {
     background-color: #00FFEE;
-    height: 60px;
-    width: 130px;
+    height: 6vw;
+    width: 120px;
     box-shadow:15px 15px black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
     a:visited{
         color: black;
         -webkit-text-stroke: 1.5px white;
@@ -50,13 +55,13 @@ nav{
 }
 .selectedReview {
     background-color: #00FFEE;
-    height: 60px;
-    width: 170px;
+    height: 6vw;
+    width: 160px;
     box-shadow:15px 15px black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
     a:visited{
         color: black;
         -webkit-text-stroke: 1.5px white;
@@ -64,13 +69,13 @@ nav{
 }
 .selectedWeapon {
     background-color: #00FFEE;
-    height: 60px;
-    width: 200px;
+    height: 6vw;
+    width: 190px;
     box-shadow:15px 15px black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
     a:visited{
         color: black;
         -webkit-text-stroke: 1.5px white;
@@ -79,13 +84,13 @@ nav{
 .selectedSound {
     background-color: #00FFEE;
     padding: -5px;
-    height: 60px;
-    width: 260px;
+    height: 6vw;
+    width: 255px;
     box-shadow:15px 15px black;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
     a:visited{
         color: black;
         -webkit-text-stroke: 1.5px white;
