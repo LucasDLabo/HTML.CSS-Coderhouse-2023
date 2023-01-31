@@ -24,7 +24,7 @@ Por esto mismo, decidí enfocar mi primera página WEB en uno de mis videojuegos
 - Ranking de canciones más escuchadas
 
 
-###Requisitos de la WEB
+### Requisitos de la WEB
 
 - [x] 5 HTML
 - [x] Diseño Responsive
