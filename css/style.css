@@ -153,10 +153,10 @@ body {
   height: 100vh; }
 
 .center {
-  max-width: 60rem; }
+  width: 70vw; }
 
 .arrow {
-  width: 4rem;
+  width: 5vw;
   rotate: 90deg;
   margin-bottom: 20px;
   background-color: lightgray;
@@ -175,7 +175,7 @@ body {
   justify-content: center;
   font-family: "Justice Italic";
   color: white;
-  font-size: 2.2em;
+  font-size: 2.5vw;
   -webkit-text-stroke: 1.5px black;
   text-align: center;
   align-items: center; }
@@ -546,7 +546,7 @@ footer {
   color: white;
   font-size: 16px; }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 800px) {
   * {
     transition: none; }
   nav {
