@@ -23,16 +23,35 @@ Por esto mismo, decidí enfocar mi primera página WEB en uno de mis videojuegos
 - Armas disponibles
 - Ranking de canciones más escuchadas
 
+
+###Requisitos de la WEB
+
+- [x] 5 HTML
+- [x] Diseño Responsive
+    - [x] Mobile
+    - [ ] Laptop
+- [x] SEO
+- [ ] Bootstrap - Tailwind (opcional)
+- [x] SASS
+    - [ ] Mixins
+    - [ ] Variables
+    - [ ] Extends
+    - [x] Partials
+- [ ] Presupuesto
+
 ------------
 
 ### Tipografías
 - Justice Italic
+
 [![Justice Italic](https://www.dafont.com/img/preview/j/u/justice13.png "Justice Italic")](https://www.dafont.com/justice.font "Justice Italic")
 
 - Justice Condensed Outline
+
 [![Justice Condensed Outline](https://www.dafont.com/img/preview/j/u/justice10.png "Justice Condensed Outline")](https://www.dafont.com/justice.font "Justice Condensed Outline")
 
 - Justice Expanded
+
 [![Justice Expanded](https://www.dafont.com/img/preview/j/u/justice9.png "Justice Expanded")](https://www.dafont.com/justice.font "Justice Expanded")
 
 ------------
