@@ -32,12 +32,13 @@ Por esto mismo, decidí enfocar mi primera página WEB en uno de mis videojuegos
     - [x] Laptop
     - [x] Mobile
     - [x] Tablet
+- [x] Deploy
 - [x] SEO
 - [ ] Bootstrap - Tailwind (opcional)
 - [x] SASS
-    - [ ] Mixins
-    - [ ] Variables
-    - [ ] Extends
+    - [] Mixins
+    - [x] Variables
+    - [x] Extends
     - [x] Partials
 - [ ] Presupuesto
 

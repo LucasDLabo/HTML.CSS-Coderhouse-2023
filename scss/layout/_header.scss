@@ -7,8 +7,6 @@ a:visited {
 header{
     img{
         display: flex;
-        // height: 45px;
-        // width: 45px;
         height: 3.5vw;
         width: 3.5vw;
         margin-left: 10px;
@@ -17,12 +15,11 @@ header{
 nav{
     background-color: #F765B8;
     width: auto;
-    // height: 60px;
     height: 4.5vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Justice Italic";
+    font-family: $typo1;
 }
 .navbar{
     align-items: center;
@@ -42,55 +39,36 @@ nav{
 .selectedMask {
     background-color: #00FFEE;
     height: 6vw;
-    width: 120px;
     box-shadow:15px 15px black;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     text-align: left;
+    width: 120px;
     a:visited{
         color: black;
         -webkit-text-stroke: 1.5px white;
     }
 }
 .selectedReview {
-    background-color: #00FFEE;
-    height: 6vw;
+    @extend .selectedMask;
     width: 160px;
-    box-shadow:15px 15px black;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    text-align: left;
     a:visited{
         color: black;
         -webkit-text-stroke: 1.5px white;
     }
 }
 .selectedWeapon {
-    background-color: #00FFEE;
-    height: 6vw;
+    @extend .selectedMask;
     width: 190px;
-    box-shadow:15px 15px black;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    text-align: left;
     a:visited{
         color: black;
         -webkit-text-stroke: 1.5px white;
     }
 }
 .selectedSound {
-    background-color: #00FFEE;
-    padding: -5px;
-    height: 6vw;
+    @extend .selectedMask;
     width: 255px;
-    box-shadow:15px 15px black;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    text-align: left;
     a:visited{
         color: black;
         -webkit-text-stroke: 1.5px white;

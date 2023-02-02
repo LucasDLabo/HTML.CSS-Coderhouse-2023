@@ -15,7 +15,7 @@
 }
 .listeners{
     display: flex;
-    font-family: "Justice Italic";
+    font-family: $typo1;
     font-size: 3vw;
     justify-content: flex-end;
     color: white;
@@ -23,7 +23,7 @@
     -webkit-text-stroke: .18vw black;
 }
 .textRanking{
-    font-family: "Justice Italic" ;
+    font-family: $typo1;
     color: white;
     font-size: 5vw;
     -webkit-text-stroke: .2vw black;

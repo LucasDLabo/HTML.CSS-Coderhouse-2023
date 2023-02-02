@@ -31,7 +31,7 @@
     margin-left: 6rem;
     display: flex;
     justify-content: center;
-    font-family: "Justice Italic";
+    font-family: $typo1;
     color: white;
     font-size: 2.5vw;
     -webkit-text-stroke: 1.5px black;
@@ -52,7 +52,7 @@
 }
 .indexBox{
     display: flex;
-    font-family: "Justice Italic";
+    font-family: $typo1;
     color: white;
     font-size: 2.5vw;
     -webkit-text-stroke: 1.5px black;
@@ -69,7 +69,7 @@
     display: flex;
     justify-content: center;
     gap: 5vw;
-    font-family: "Justice Italic";
+    font-family: $typo1;
     font-size: 3vw;
     color: white;
     -webkit-text-stroke: 2px black;
@@ -82,7 +82,6 @@
     align-items: center;
     width: 6.5em;
     height: 9em;
-    background-image: url(https://cdn.discordapp.com/attachments/482724249723994122/1059789867657199646/thumb_review.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -91,56 +90,21 @@
     -webkit-text-stroke: 2px black;
     border-image: linear-gradient( #ff00b5, #00fff0) 1;
     box-shadow: 20px 20px 10px black;
+
+    background-image: url(https://cdn.discordapp.com/attachments/482724249723994122/1059789867657199646/thumb_review.jpg);
 }
 .maskCard{
-    // background-color: #DBFF00;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 6.5em;
-    height: 9em;
+    @extend .reviewCard;
     background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748285992960/thumb_mask.webp?width=480&height=480), radial-gradient(circle, rgba(255,255,0,1) 60%, rgba(255,122,1,1) 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-width: 5px ;
-    border-style: solid;
-    -webkit-text-stroke: 2px black;
-    border-image: linear-gradient( #ff00b5, #00fff0) 1;
-    box-shadow: 20px 20px 10px black;
+
 }
 .weaponCard{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 6.5em;
-    height: 9em;
+    @extend .reviewCard;
     background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748659290152/thumb_weapons_resize.jpg?width=339&height=480);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-width: 5px ;
-    border-style: solid;
-    -webkit-text-stroke: 2px black;
-    border-image: linear-gradient( #ff00b5, #00fff0) 1;
-    box-shadow: 20px 20px 10px black;
 }
 .soundCard{
-    background-color:yellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 6.5em;
-    height: 9em;
+    @extend .reviewCard;
     background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748986441788/thumb_soundtrack_alter.png?width=480&height=480),  linear-gradient(180deg, rgba(195,0,96,1) 13%, rgba(21,255,246,1) 100%);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-width: 5px ;
-    border-style: solid;
-    -webkit-text-stroke: 2px black;
-    border-image: linear-gradient( #ff00b5, #00fff0) 1;
-    box-shadow: 20px 20px 10px black;
 }
 .cardFlex:hover > :not(:hover){
     transition: .3s;

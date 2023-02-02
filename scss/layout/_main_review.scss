@@ -15,7 +15,7 @@
     margin-right: 60px;
     gap: 20px;
     p{
-        font-family: "Justice Italic";
+        font-family: $typo1;
         color: white;
         display: flex;
         -webkit-text-stroke: black 1.5px;
@@ -58,47 +58,41 @@
     color: white;  
 }
 .yellowScore{
+    @extend .redScore;
     background-color: rgb(255, 217, 0);
-    border-radius: 50%;
-    width: 6vw;
-    height: 6vw;
-    text-align: center;
-    font-size: 4vw;
     color: grey;  
 }
+
+.greenScore{
+    @extend .redScore;
+    background-color: green;
+}
+
 textarea{
     width: 70vw;
     font-size: 1.2vw;
-}
-.greenScore{
-    background-color: green;
-    border-radius: 50%;
-    width: 6vw;
-    height: 6vw;
-    text-align: center;
-    font-size: 4vw;
-    color: white;  
 }
 .giveOpinion{
     background-color: #F765B8;
     display: flex;
     margin-left: 60px;
     margin-right: 60px;
-    font-size: 2.5vw;
-    font-family: "Justice Italic";
+    font-size: 3.5vw;
+    font-family: $typo1;
     color: #FF00B5;
     align-items: center;
+    -webkit-text-stroke: black .15vw;
 }
 .buttonFlex{
     display: flex;
     width: 100%;
-    justify-content: end;
+    justify-content: flex-end;
     margin: 30px;
     input{
         background-color: #F765B8;
         border: 3px solid black;
         display: flex;
-        font-family: "Justice Italic";
+        font-family: $typo1;
         font-size: 20px;
         justify-content: center;
         align-items: center;
@@ -107,5 +101,15 @@ textarea{
         height: 50px;
         width: 100px;
         margin-right: 60px;
+        &:hover{
+            transition: .3s;
+            background-color: #00FFEE;
+            transform: scale(1.1,1.1);
+        }
+        &:active{
+            transition: 0s;
+            background-color: #00998f;
+        }
     }
+    
 }
