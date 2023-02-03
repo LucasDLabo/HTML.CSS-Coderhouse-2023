@@ -1,6 +1,5 @@
 .imgWeapon{
-    display: flex;
-    justify-content: center;
+    @include flex(row, center, normal);
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 40px;

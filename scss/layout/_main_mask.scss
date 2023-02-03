@@ -1,7 +1,5 @@
 .maskBox{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;   
+    @include flex(row, flex-start, center);
     margin-bottom: 20px;
     margin-left: 9vw;
     img{
@@ -35,22 +33,23 @@
     }
 }
 .TAU{
+    @include flex(row, center, flex-end);
     font-family: $typo2;
     color: white;
-    display: flex;
-    justify-content: center;    
-    align-items: flex-end;
     text-align: right;
     font-size: 2.5vw;
-    margin: 20px;
+    margin-left: -2vw;
+
+    margin-top: 20px;
+    margin-bottom:20px; 
+    margin-right: 20px;
     height: 160px;
 }
 .description{
+    @include flex(row, flex-start, flex-end);
     font-family: $typo1;
     color: white;
-    display: flex;
     height: 160px;
-    align-items: flex-end;
     text-align: left;
     font-size: 2.5vw;
     -webkit-text-stroke: 1.5px black;

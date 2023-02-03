@@ -1,11 +1,9 @@
 footer{
+    @include flex(row, flex-start, center);
     background-color: #471758;
     color: white;
     width: auto;
     height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
     font-family: $typo1;
     letter-spacing: 1px;
     p{

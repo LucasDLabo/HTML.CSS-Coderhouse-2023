@@ -36,7 +36,7 @@ Por esto mismo, decidí enfocar mi primera página WEB en uno de mis videojuegos
 - [x] SEO
 - [ ] Bootstrap - Tailwind (opcional)
 - [x] SASS
-    - [] Mixins
+    - [x] Mixins
     - [x] Variables
     - [x] Extends
     - [x] Partials
