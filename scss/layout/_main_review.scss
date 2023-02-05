@@ -41,25 +41,47 @@
     font-family: "Arial";
     color: white;
     font-size: 70px;
+    
 }
-.redScore{
+.redScore1, .redScore2, .redScore3, .redScore4{
     background-color: red;
     border-radius: 50%;
     width: 6vw;
     height: 6vw;
     text-align: center;
     font-size: 4vw;
-    color: white;  
+    color: white;
+    box-shadow: 6px 6px white;  
 }
-.yellowScore{
-    @extend .redScore;
+.redScore1:hover, .redScore2:hover, .redScore3:hover, .redScore4:hover{
+    background-color: rgb(255, 59, 59);
+    transition: .1s;
+    transform: scale(1.1,1.1);
+}
+.redScore1:active, .redScore2:active, .redScore3:active,.redScore4:active{
+    transform: translateY(4px);
+    box-shadow: 0px 0px rgb(0, 0, 0);
+}
+
+.redScore1:not(:hover){
+    transition: .1s
+}
+.yellowScore5, .yellowScore6, .yellowScore7{
+    @extend .redScore1;
     background-color: rgb(255, 217, 0);
     color: grey;  
 }
+.yellowScore5:hover, .yellowScore6:hover, .yellowScore7:hover{
+    background-color:rgb(245, 228, 129); 
+}
 
-.greenScore{
-    @extend .redScore;
+.greenScore8, .greenScore9, .greenScore10{
+    @extend .redScore1;
     background-color: green;
+}
+
+.greenScore8:hover, .greenScore9:hover,.greenScore10:hover{
+    background-color: rgb(4, 219, 4);
 }
 
 textarea{
@@ -92,12 +114,13 @@ textarea{
         width: 100px;
         margin-right: 60px;
         &:hover{
-            transition: .3s;
+            transition: .2s;
             background-color: #00FFEE;
             transform: scale(1.1,1.1);
         }
         &:active{
             transition: 0s;
+            transform: scale(1,1);
             background-color: #00998f;
         }
     }

@@ -35,7 +35,7 @@
     -webkit-text-stroke: 1.5px black;
     text-align: center;
     img{
-        height: 200px;
+        height: 12vw;
     }
 }
 .videoFlex{
@@ -44,6 +44,8 @@
     iframe{
         border: solid white 10px;
         border-radius: 60px;
+        height: 30vw;
+        width: 45vw;
     }
 }
 .indexBox{
@@ -56,7 +58,7 @@
     margin-left: 6rem;
     text-align: center;
     img{
-        height: 200px;
+        height: 14vw;
     }
 }
 .cardFlex{

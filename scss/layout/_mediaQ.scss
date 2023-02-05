@@ -74,6 +74,9 @@
         max-height: 100vh;
         margin: auto;
     }
+    .arrow{
+        width: 10vw;
+    }
     h2{
         font-size: 8vw;
         margin-left: 3rem;
@@ -464,6 +467,7 @@
         width: 100px;
     }
     .giveOpinion{
+        -webkit-text-stroke: black .8px;
         font-size: 30px;
         margin-right: 30px;
         margin-left: 30px;

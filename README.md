@@ -27,21 +27,23 @@ Por esto mismo, decidí enfocar mi primera página WEB en uno de mis videojuegos
 ### Requisitos de la WEB
 
 - [x] 5 HTML
+- [x] [Figma](https://www.figma.com/file/pB6cGMVyxoMMEn5pjcfhwR/Hotline-Web-Page?node-id=0%3A1&t=0utVFc8ZFEHqQaj0-1 "Figma")
 - [x] Diseño Responsive
     - [x] Desktop
     - [x] Laptop
     - [x] Mobile
     - [x] Tablet
 - [x] Deploy
+    - [x] [000webhost](https://hotlinefanpage.000webhostapp.com "Deploy - 000webhost")
+    - [x] github-pages
 - [x] SEO
-- [ ] Bootstrap - Tailwind (opcional)
 - [x] SASS
     - [x] Mixins
     - [x] Variables
     - [x] Extends
     - [x] Partials
-- [ ] Presupuesto
-
+- [ ] Bootstrap - Tailwind (opcional)
+- [x] [Presupuesto](https://www.canva.com/design/DAFZpIiv7QY/UFxT6jHGqZr2dwV-lOdCKg/edit?utm_content=DAFZpIiv7QY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton "Presupuesto")
 ------------
 
 ### Tipografías
