@@ -1,3 +1,6 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
 a:link { 
     text-decoration: none; 
     color: white;}
@@ -13,15 +16,15 @@ header{
     }
 }
 nav{
-    @include flex(row, space-between, center);
+    @include mixins.flex(row, space-between, center);
     background-color: #F765B8;
     width: auto;
     height: 4.5vw;
     display: flex;
-    font-family: $typo1;
+    font-family: variables.$typo1;
 }
 .navbar{
-    @include flex(row, flex-start, center);
+    @include mixins.flex(row, flex-start, center);
     gap: 50px;
     color: white;
     font-size: 40px;
@@ -35,7 +38,7 @@ nav{
     }
 }
 .selectedMask {
-    @include flex(row, flex-start, flex-end);
+    @include mixins.flex(row, flex-start, flex-end);
     background-color: #00FFEE;
     height: 6vw;
     box-shadow:15px 15px black;

@@ -1,3 +1,6 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
 .imgLogo{
     background-color: white;
     border-radius: 30px;
@@ -8,13 +11,13 @@
     aspect-ratio: 16/9;
 }
 .reviewBox{
-    @include flex(row, space-evenly, center);
+    @include mixins.flex(row, space-evenly, center);
     margin-left: 60px;
     margin-right: 60px;
     gap: 20px;
     p{
-        @include flex(row, flex-end, center);
-        font-family: $typo1;
+        @include mixins.flex(row, flex-end, center);
+        font-family: variables.$typo1;
         color: white;
         -webkit-text-stroke: black 1.5px;
         height: 160px;
@@ -27,7 +30,7 @@
     width: 7vw;
 }
 .opinionBox{
-    @include flex(column, flex-start, center);
+    @include mixins.flex(column, flex-start, center);
     background-color: #420043;
     margin-right: 60px;
     margin-left: 60px;
@@ -89,24 +92,24 @@ textarea{
     font-size: 1.2vw;
 }
 .giveOpinion{
-    @include flex(row, flex-start, center);
+    @include mixins.flex(row, flex-start, center);
     background-color: #F765B8;
     margin-left: 60px;
     margin-right: 60px;
     font-size: 3.5vw;
-    font-family: $typo1;
+    font-family: variables.$typo1;
     color: #FF00B5;
     -webkit-text-stroke: black .15vw;
 }
 .buttonFlex{
-    @include flex(row, flex-end, normal);
+    @include mixins.flex(row, flex-end, normal);
     width: 100%;
     margin: 30px;
     input{
-        @include flex(row, center, center);
+        @include mixins.flex(row, center, center);
         background-color: #F765B8;
         border: 3px solid black;
-        font-family: $typo1;
+        font-family: variables.$typo1;
         font-size: 20px;
         color: black;
         border-radius: 20px;

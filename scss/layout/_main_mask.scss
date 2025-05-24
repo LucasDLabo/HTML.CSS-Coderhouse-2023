@@ -1,5 +1,8 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
 .maskBox{
-    @include flex(row, flex-start, center);
+    @include mixins.flex(row, flex-start, center);
     margin-bottom: 20px;
     margin-left: 9vw;
     img{
@@ -33,8 +36,8 @@
     }
 }
 .TAU{
-    @include flex(row, center, flex-end);
-    font-family: $typo2;
+    @include mixins.flex(row, center, flex-end);
+    font-family: variables.$typo2;
     color: white;
     text-align: right;
     font-size: 2.5vw;
@@ -46,8 +49,8 @@
     height: 160px;
 }
 .description{
-    @include flex(row, flex-start, flex-end);
-    font-family: $typo1;
+    @include mixins.flex(row, flex-start, flex-end);
+    font-family: variables.$typo1;
     color: white;
     height: 160px;
     text-align: left;

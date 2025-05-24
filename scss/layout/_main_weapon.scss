@@ -1,5 +1,7 @@
+@use "../utilities/mixins";
+
 .imgWeapon{
-    @include flex(row, center, normal);
+    @include mixins.flex(row, center, normal);
     flex-wrap: wrap;
     margin-top: 20px;
     margin-bottom: 40px;

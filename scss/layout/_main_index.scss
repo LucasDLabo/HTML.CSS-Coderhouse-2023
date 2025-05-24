@@ -1,3 +1,6 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
 .mainTitle{
     background-image: url(https://cdn.discordapp.com/attachments/482724249723994122/1066867452857811074/backTitle_WEBP.webp);
     background-size: cover;
@@ -26,10 +29,10 @@
     }
 }
 .HMdescription{
-    @include flex(row, center, center);
+    @include mixins.flex(row, center, center);
     margin-right: 6rem;
     margin-left: 6rem;
-    font-family: $typo1;
+    font-family: variables.$typo1;
     color: white;
     font-size: 2.5vw;
     -webkit-text-stroke: 1.5px black;
@@ -39,7 +42,7 @@
     }
 }
 .videoFlex{
-    @include flex(row, center, normal);
+    @include mixins.flex(row, center, normal);
     margin-top: 2rem;
     iframe{
         border: solid white 10px;
@@ -49,8 +52,8 @@
     }
 }
 .indexBox{
-    @include flex(row, flex-start, center);
-    font-family: $typo1;
+    @include mixins.flex(row, flex-start, center);
+    font-family: variables.$typo1;
     color: white;
     font-size: 2.5vw;
     -webkit-text-stroke: 1.5px black;
@@ -62,9 +65,9 @@
     }
 }
 .cardFlex{
-    @include flex(row, center, normal);
+    @include mixins.flex(row, center, normal);
     gap: 5vw;
-    font-family: $typo1;
+    font-family: variables.$typo1;
     font-size: 3vw;
     color: white;
     -webkit-text-stroke: 2px black;
@@ -72,7 +75,7 @@
     flex-wrap: wrap;
 }
 .reviewCard{
-    @include flex(row, center, center);
+    @include mixins.flex(row, center, center);
     width: 6.5em;
     height: 9em;
     background-size: cover;

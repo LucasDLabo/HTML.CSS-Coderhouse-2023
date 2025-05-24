@@ -1,3 +1,5 @@
+@use "../utilities/variables";
+
 @font-face {
     font-family: "Justice Italic";
     src: url(../fonts/justiceital.ttf);
@@ -12,7 +14,7 @@
 }
 
 h2{
-    font-family: $typoTitle;
+    font-family: variables.$typoTitle;
     -webkit-text-stroke: 3px black;
     color:#00FFEE;
     display: flex;
@@ -27,7 +29,7 @@ h2{
     text-align: center;
 }
 h3{
-    font-family: $typo1;
+    font-family: variables.$typo1;
     color: white;
     display: flex;
     justify-content: flex-start;    

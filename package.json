@@ -1,17 +1,27 @@
 {
   "name": "scss",
   "version": "1.0.0",
-  "description": "",
+  "description": "![](https://jobs.coderhouse.com/assets/logos_coderhouse.png)\r En este curso, el objetivo principal será el desarrollar una página web desde cero, además de aprender sobre todo lo que concierne acerca del Desarrollo WEB.\r #### Puntos destacables:\r - Diseño Responsive\r - Empleo de GIT y GITHUB\r - Scripts y Terminal\r - Estilos mediante SASS\r ------------\r ### Programas y tecnologías utilizadas\r ![](https://cdn.discordapp.com/attachments/482724249723994122/1067573318548475974/Git_Images_Plus.png)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "sass-watch": "sass scss/style.scss css/style.css --watch",
+    "sass-build": "sass scss/style.scss css/style.css --style=compressed"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^8.0.0",
-    "nodemon": "^2.0.20"
-  }
+    "nodemon": "^2.0.20",
+    "sass": "^1.89.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasDLabo/HTML.CSS-Coderhouse-2023.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LucasDLabo/HTML.CSS-Coderhouse-2023/issues"
+  },
+  "homepage": "https://github.com/LucasDLabo/HTML.CSS-Coderhouse-2023#readme"
 }

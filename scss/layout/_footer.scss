@@ -1,10 +1,13 @@
+@use "../utilities/mixins";
+@use "../utilities/variables";
+
 footer{
-    @include flex(row, flex-start, center);
+    @include mixins.flex(row, flex-start, center);
     background-color: #471758;
     color: white;
     width: auto;
     height: 30px;
-    font-family: $typo1;
+    font-family: variables.$typo1;
     letter-spacing: 1px;
     p{
         margin-left: 15px;

@@ -1,23 +1,25 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+}
 
 @font-face {
   font-family: "Justice Italic";
-  src: url(../fonts/justiceital.ttf); }
-
+  src: url(../fonts/justiceital.ttf);
+}
 @font-face {
   font-family: "Justice Condensed Outline";
-  src: url(../fonts/justicecondout.ttf); }
-
+  src: url(../fonts/justicecondout.ttf);
+}
 @font-face {
   font-family: "Justice Expanded";
-  src: url(../fonts/justiceexpand.ttf); }
-
+  src: url(../fonts/justiceexpand.ttf);
+}
 h2 {
   font-family: "Justice Expanded";
   -webkit-text-stroke: 3px black;
@@ -30,7 +32,8 @@ h2 {
   margin-bottom: 3rem;
   margin-right: 8rem;
   margin-left: 8rem;
-  text-align: center; }
+  text-align: center;
+}
 
 h3 {
   font-family: "Justice Italic";
@@ -40,21 +43,25 @@ h3 {
   align-items: flex-end;
   font-size: 2.5vw;
   margin-left: 65px;
-  -webkit-text-stroke: 1.5px black; }
+  -webkit-text-stroke: 1.5px black;
+}
 
 a:link {
   text-decoration: none;
-  color: white; }
+  color: white;
+}
 
 a:visited {
   text-decoration: none;
-  color: white; }
+  color: white;
+}
 
 header img {
   display: flex;
   height: 3.5vw;
   width: 3.5vw;
-  margin-left: 10px; }
+  margin-left: 10px;
+}
 
 nav {
   display: flex;
@@ -65,7 +72,8 @@ nav {
   width: auto;
   height: 4.5vw;
   display: flex;
-  font-family: "Justice Italic"; }
+  font-family: "Justice Italic";
+}
 
 .navbar {
   display: flex;
@@ -75,14 +83,17 @@ nav {
   gap: 50px;
   color: white;
   font-size: 40px;
-  margin-right: 25px; }
-  .navbar li {
-    list-style: none;
-    margin: 10px; }
-    .navbar li a {
-      text-decoration: none; }
+  margin-right: 25px;
+}
+.navbar li {
+  list-style: none;
+  margin: 10px;
+}
+.navbar li a {
+  text-decoration: none;
+}
 
-.selectedMask, .selectedReview, .selectedWeapon, .selectedSound {
+.selectedMask, .selectedSound, .selectedWeapon, .selectedReview {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -91,32 +102,41 @@ nav {
   height: 6vw;
   box-shadow: 15px 15px black;
   text-align: left;
-  width: 120px; }
-  .selectedMask a:visited, .selectedReview a:visited, .selectedWeapon a:visited, .selectedSound a:visited {
-    color: black;
-    -webkit-text-stroke: 1.5px white; }
+  width: 120px;
+}
+.selectedMask a:visited, .selectedSound a:visited, .selectedWeapon a:visited, .selectedReview a:visited {
+  color: black;
+  -webkit-text-stroke: 1.5px white;
+}
 
 .selectedReview {
-  width: 160px; }
-  .selectedReview a:visited {
-    color: black;
-    -webkit-text-stroke: 1.5px white; }
+  width: 160px;
+}
+.selectedReview a:visited {
+  color: black;
+  -webkit-text-stroke: 1.5px white;
+}
 
 .selectedWeapon {
-  width: 190px; }
-  .selectedWeapon a:visited {
-    color: black;
-    -webkit-text-stroke: 1.5px white; }
+  width: 190px;
+}
+.selectedWeapon a:visited {
+  color: black;
+  -webkit-text-stroke: 1.5px white;
+}
 
 .selectedSound {
-  width: 255px; }
-  .selectedSound a:visited {
-    color: black;
-    -webkit-text-stroke: 1.5px white; }
+  width: 255px;
+}
+.selectedSound a:visited {
+  color: black;
+  -webkit-text-stroke: 1.5px white;
+}
 
 body {
   height: 100%;
-  background: linear-gradient(180deg, #420043 50%, #001aff 100%); }
+  background: linear-gradient(180deg, rgb(66, 0, 67) 50%, rgb(0, 26, 255) 100%);
+}
 
 .splitBar {
   background-color: #00FFEE;
@@ -126,7 +146,8 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 30px;
-  border: 3px solid black; }
+  border: 3px solid black;
+}
 
 .mainTitle {
   background-image: url(https://cdn.discordapp.com/attachments/482724249723994122/1066867452857811074/backTitle_WEBP.webp);
@@ -135,22 +156,27 @@ body {
   display: grid;
   grid-row: 1fr 1fr;
   justify-items: center;
-  height: 100vh; }
+  height: 100vh;
+}
 
 .center {
-  width: 70vw; }
+  width: 70vw;
+}
 
 .arrow {
   width: 5vw;
   margin-bottom: 20px;
   background-color: lightgray;
   border: solid white 3px;
-  border-radius: 15px; }
-  .arrow:hover {
-    transition: .2s;
-    transform: translate(0px, -20px); }
-  .arrow:not(:hover) {
-    transition: .3s; }
+  border-radius: 15px;
+}
+.arrow:hover {
+  transition: 0.2s;
+  transform: translate(0px, -20px);
+}
+.arrow:not(:hover) {
+  transition: 0.3s;
+}
 
 .HMdescription {
   display: flex;
@@ -163,21 +189,25 @@ body {
   color: white;
   font-size: 2.5vw;
   -webkit-text-stroke: 1.5px black;
-  text-align: center; }
-  .HMdescription img {
-    height: 12vw; }
+  text-align: center;
+}
+.HMdescription img {
+  height: 12vw;
+}
 
 .videoFlex {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: normal;
-  margin-top: 2rem; }
-  .videoFlex iframe {
-    border: solid white 10px;
-    border-radius: 60px;
-    height: 30vw;
-    width: 45vw; }
+  margin-top: 2rem;
+}
+.videoFlex iframe {
+  border: solid white 10px;
+  border-radius: 60px;
+  height: 30vw;
+  width: 45vw;
+}
 
 .indexBox {
   display: flex;
@@ -190,9 +220,11 @@ body {
   -webkit-text-stroke: 1.5px black;
   margin-right: 6rem;
   margin-left: 6rem;
-  text-align: center; }
-  .indexBox img {
-    height: 14vw; }
+  text-align: center;
+}
+.indexBox img {
+  height: 14vw;
+}
 
 .cardFlex {
   display: flex;
@@ -205,9 +237,10 @@ body {
   color: white;
   -webkit-text-stroke: 2px black;
   margin-bottom: 4rem;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
-.reviewCard, .maskCard, .weaponCard, .soundCard {
+.reviewCard, .soundCard, .weaponCard, .maskCard {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -222,48 +255,57 @@ body {
   -webkit-text-stroke: 2px black;
   border-image: linear-gradient(#ff00b5, #00fff0) 1;
   box-shadow: 20px 20px 10px black;
-  background-image: url(https://cdn.discordapp.com/attachments/482724249723994122/1059789867657199646/thumb_review.jpg); }
+  background-image: url(https://cdn.discordapp.com/attachments/482724249723994122/1059789867657199646/thumb_review.jpg);
+}
 
 .maskCard {
-  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748285992960/thumb_mask.webp?width=480&height=480), radial-gradient(circle, yellow 60%, #ff7a01 100%); }
+  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748285992960/thumb_mask.webp?width=480&height=480), radial-gradient(circle, rgb(255, 255, 0) 60%, rgb(255, 122, 1) 100%);
+}
 
 .weaponCard {
-  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748659290152/thumb_weapons_resize.jpg?width=339&height=480); }
+  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748659290152/thumb_weapons_resize.jpg?width=339&height=480);
+}
 
 .soundCard {
-  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748986441788/thumb_soundtrack_alter.png?width=480&height=480), linear-gradient(180deg, #c30060 13%, #15fff6 100%); }
+  background-image: url(https://media.discordapp.net/attachments/482724249723994122/1059793748986441788/thumb_soundtrack_alter.png?width=480&height=480), linear-gradient(180deg, rgb(195, 0, 96) 13%, rgb(21, 255, 246) 100%);
+}
 
 .cardFlex:hover > :not(:hover) {
-  transition: .3s;
-  opacity: 0.5; }
+  transition: 0.3s;
+  opacity: 0.5;
+}
 
 .reviewCard:hover, .maskCard:hover, .weaponCard:hover, .soundCard:hover {
-  transition: .3s;
-  transform: scale(1.2, 1.2); }
-
+  transition: 0.3s;
+  transform: scale(1.2, 1.2);
+}
 .reviewCard:not(:hover), .maskCard:not(:hover), .weaponCard:not(:hover), .soundCard:not(:hover) {
-  transition: .3s; }
+  transition: 0.3s;
+}
 
 .maskCard:hover {
-  transition: .3s;
-  transform: scale(1.2, 1.2); }
-
+  transition: 0.3s;
+  transform: scale(1.2, 1.2);
+}
 .maskCard:not(:hover) {
-  transition: .3s; }
+  transition: 0.3s;
+}
 
 .weaponCard:hover {
-  transition: .3s;
-  transform: scale(1.2, 1.2); }
-
+  transition: 0.3s;
+  transform: scale(1.2, 1.2);
+}
 .weaponCard:not(:hover) {
-  transition: .3s; }
+  transition: 0.3s;
+}
 
 .soundCard:hover {
-  transition: .3s;
-  transform: scale(1.2, 1.2); }
-
+  transition: 0.3s;
+  transform: scale(1.2, 1.2);
+}
 .soundCard:not(:hover) {
-  transition: .3s; }
+  transition: 0.3s;
+}
 
 .imgLogo {
   background-color: white;
@@ -272,7 +314,8 @@ body {
   width: 30vw;
   object-fit: contain;
   border: 5px solid black;
-  aspect-ratio: 16/9; }
+  aspect-ratio: 16/9;
+}
 
 .reviewBox {
   display: flex;
@@ -281,22 +324,25 @@ body {
   align-items: center;
   margin-left: 60px;
   margin-right: 60px;
-  gap: 20px; }
-  .reviewBox p {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    font-family: "Justice Italic";
-    color: white;
-    -webkit-text-stroke: black 1.5px;
-    height: 160px;
-    text-align: start;
-    font-size: 2.2vw; }
+  gap: 20px;
+}
+.reviewBox p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: "Justice Italic";
+  color: white;
+  -webkit-text-stroke: black 1.5px;
+  height: 160px;
+  text-align: start;
+  font-size: 2.2vw;
+}
 
 .imgScore {
   height: 7vw;
-  width: 7vw; }
+  width: 7vw;
+}
 
 .opinionBox {
   display: flex;
@@ -307,7 +353,8 @@ body {
   margin-right: 60px;
   margin-left: 60px;
   justify-items: center;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+}
 
 .scoreBox {
   margin: 30px;
@@ -315,9 +362,10 @@ body {
   gap: 2vw;
   font-family: "Arial";
   color: white;
-  font-size: 70px; }
+  font-size: 70px;
+}
 
-.redScore1, .yellowScore5, .yellowScore6, .yellowScore7, .greenScore8, .greenScore9, .greenScore10, .redScore2, .redScore3, .redScore4 {
+.redScore1, .greenScore8, .greenScore9, .greenScore10, .yellowScore5, .yellowScore6, .yellowScore7, .redScore2, .redScore3, .redScore4 {
   background-color: red;
   border-radius: 50%;
   width: 6vw;
@@ -325,36 +373,45 @@ body {
   text-align: center;
   font-size: 4vw;
   color: white;
-  box-shadow: 6px 6px white; }
+  box-shadow: 6px 6px white;
+}
 
-.redScore1:hover, .yellowScore5:hover, .yellowScore6:hover, .yellowScore7:hover, .greenScore8:hover, .greenScore9:hover, .greenScore10:hover, .redScore2:hover, .redScore3:hover, .redScore4:hover {
-  background-color: #ff3b3b;
-  transition: .1s;
-  transform: scale(1.1, 1.1); }
+.redScore1:hover, .greenScore8:hover, .greenScore9:hover, .greenScore10:hover, .yellowScore5:hover, .yellowScore6:hover, .yellowScore7:hover, .redScore2:hover, .redScore3:hover, .redScore4:hover {
+  background-color: rgb(255, 59, 59);
+  transition: 0.1s;
+  transform: scale(1.1, 1.1);
+}
 
-.redScore1:active, .yellowScore5:active, .yellowScore6:active, .yellowScore7:active, .greenScore8:active, .greenScore9:active, .greenScore10:active, .redScore2:active, .redScore3:active, .redScore4:active {
+.redScore1:active, .greenScore8:active, .greenScore9:active, .greenScore10:active, .yellowScore5:active, .yellowScore6:active, .yellowScore7:active, .redScore2:active, .redScore3:active, .redScore4:active {
   transform: translateY(4px);
-  box-shadow: 0px 0px black; }
+  box-shadow: 0px 0px rgb(0, 0, 0);
+}
 
-.redScore1:not(:hover), .yellowScore5:not(:hover), .yellowScore6:not(:hover), .yellowScore7:not(:hover), .greenScore8:not(:hover), .greenScore9:not(:hover), .greenScore10:not(:hover) {
-  transition: .1s; }
+.redScore1:not(:hover), .greenScore8:not(:hover), .greenScore9:not(:hover), .greenScore10:not(:hover), .yellowScore5:not(:hover), .yellowScore6:not(:hover), .yellowScore7:not(:hover) {
+  transition: 0.1s;
+}
 
 .yellowScore5, .yellowScore6, .yellowScore7 {
-  background-color: #ffd900;
-  color: grey; }
+  background-color: rgb(255, 217, 0);
+  color: grey;
+}
 
 .yellowScore5:hover, .yellowScore6:hover, .yellowScore7:hover {
-  background-color: #f5e481; }
+  background-color: rgb(245, 228, 129);
+}
 
 .greenScore8, .greenScore9, .greenScore10 {
-  background-color: green; }
+  background-color: green;
+}
 
 .greenScore8:hover, .greenScore9:hover, .greenScore10:hover {
-  background-color: #04db04; }
+  background-color: rgb(4, 219, 4);
+}
 
 textarea {
   width: 70vw;
-  font-size: 1.2vw; }
+  font-size: 1.2vw;
+}
 
 .giveOpinion {
   display: flex;
@@ -367,7 +424,8 @@ textarea {
   font-size: 3.5vw;
   font-family: "Justice Italic";
   color: #FF00B5;
-  -webkit-text-stroke: black .15vw; }
+  -webkit-text-stroke: black 0.15vw;
+}
 
 .buttonFlex {
   display: flex;
@@ -375,29 +433,33 @@ textarea {
   justify-content: flex-end;
   align-items: normal;
   width: 100%;
-  margin: 30px; }
-  .buttonFlex input {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: #F765B8;
-    border: 3px solid black;
-    font-family: "Justice Italic";
-    font-size: 20px;
-    color: black;
-    border-radius: 20px;
-    height: 50px;
-    width: 100px;
-    margin-right: 60px; }
-    .buttonFlex input:hover {
-      transition: .2s;
-      background-color: #00FFEE;
-      transform: scale(1.1, 1.1); }
-    .buttonFlex input:active {
-      transition: 0s;
-      transform: scale(1, 1);
-      background-color: #00998f; }
+  margin: 30px;
+}
+.buttonFlex input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #F765B8;
+  border: 3px solid black;
+  font-family: "Justice Italic";
+  font-size: 20px;
+  color: black;
+  border-radius: 20px;
+  height: 50px;
+  width: 100px;
+  margin-right: 60px;
+}
+.buttonFlex input:hover {
+  transition: 0.2s;
+  background-color: #00FFEE;
+  transform: scale(1.1, 1.1);
+}
+.buttonFlex input:active {
+  transition: 0s;
+  transform: scale(1, 1);
+  background-color: #00998f;
+}
 
 .maskBox {
   display: flex;
@@ -405,14 +467,16 @@ textarea {
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 20px;
-  margin-left: 9vw; }
-  .maskBox img {
-    width: 18vw;
-    aspect-ratio: 1;
-    object-fit: contain;
-    display: flex;
-    justify-content: start;
-    margin-right: 50px; }
+  margin-left: 9vw;
+}
+.maskBox img {
+  width: 18vw;
+  aspect-ratio: 1;
+  object-fit: contain;
+  display: flex;
+  justify-content: start;
+  margin-right: 50px;
+}
 
 .backMask {
   position: fixed;
@@ -421,18 +485,20 @@ textarea {
   bottom: -10px;
   height: auto;
   width: 18vw;
-  background: linear-gradient(90deg, #e28e17 0%, #e51671 100%);
+  background: linear-gradient(90deg, rgb(226, 142, 23) 0%, rgb(229, 22, 113) 100%);
   z-index: -1;
-  border: solid white 9px; }
-  .backMask::before {
-    border: solid black 3px;
-    content: "";
-    position: absolute;
-    top: -15px;
-    left: -9px;
-    right: -9px;
-    bottom: -15px;
-    z-index: -1; }
+  border: solid white 9px;
+}
+.backMask::before {
+  border: solid black 3px;
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -9px;
+  right: -9px;
+  bottom: -15px;
+  z-index: -1;
+}
 
 .TAU {
   display: flex;
@@ -447,7 +513,8 @@ textarea {
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
-  height: 160px; }
+  height: 160px;
+}
 
 .description {
   display: flex;
@@ -459,7 +526,8 @@ textarea {
   height: 160px;
   text-align: left;
   font-size: 2.5vw;
-  -webkit-text-stroke: 1.5px black; }
+  -webkit-text-stroke: 1.5px black;
+}
 
 .imgWeapon {
   display: flex;
@@ -469,20 +537,24 @@ textarea {
   flex-wrap: wrap;
   margin-top: 20px;
   margin-bottom: 40px;
-  gap: 2.5vw; }
-  .imgWeapon img {
-    width: 11vw;
-    height: 11vw;
-    object-fit: fill;
-    border: 5px solid white;
-    border-radius: 20%;
-    box-shadow: 10px 10px 10px black; }
-    .imgWeapon img:hover {
-      transition: .2s;
-      width: 12vw;
-      height: 12vw; }
-    .imgWeapon img:not(:hover) {
-      transition: .3s; }
+  gap: 2.5vw;
+}
+.imgWeapon img {
+  width: 11vw;
+  height: 11vw;
+  object-fit: fill;
+  border: 5px solid white;
+  border-radius: 20%;
+  box-shadow: 10px 10px 10px black;
+}
+.imgWeapon img:hover {
+  transition: 0.2s;
+  width: 12vw;
+  height: 12vw;
+}
+.imgWeapon img:not(:hover) {
+  transition: 0.3s;
+}
 
 .soundBox {
   display: flex;
@@ -496,9 +568,11 @@ textarea {
   margin-left: 10%;
   margin-right: 10%;
   border: 20px solid white;
-  border-radius: 60px; }
-  .soundBox iframe {
-    height: 20vw; }
+  border-radius: 60px;
+}
+.soundBox iframe {
+  height: 20vw;
+}
 
 .listeners {
   display: flex;
@@ -509,13 +583,15 @@ textarea {
   font-size: 3vw;
   color: white;
   margin-right: 10px;
-  -webkit-text-stroke: .18vw black; }
+  -webkit-text-stroke: 0.18vw black;
+}
 
 .textRanking {
   font-family: "Justice Italic";
   color: white;
   font-size: 5vw;
-  -webkit-text-stroke: .2vw black; }
+  -webkit-text-stroke: 0.2vw black;
+}
 
 footer {
   display: flex;
@@ -527,190 +603,239 @@ footer {
   width: auto;
   height: 30px;
   font-family: "Justice Italic";
-  letter-spacing: 1px; }
-  footer p {
-    margin-left: 15px;
-    font-size: 20px; }
+  letter-spacing: 1px;
+}
+footer p {
+  margin-left: 15px;
+  font-size: 20px;
+}
 
 .copy-font {
   font-family: "Arial";
   color: white;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 @media (max-width: 1005px) and (min-width: 801px) {
   .navbar {
     font-size: 4vw;
     align-items: flex-start;
-    gap: 3.7vw; }
+    gap: 3.7vw;
+  }
   .selectedSound {
-    width: 26vw; }
-  .selectedMask, .selectedReview, .selectedWeapon, .selectedSound {
-    width: 11.8vw; }
+    width: 26vw;
+  }
+  .selectedMask {
+    width: 11.8vw;
+  }
   .selectedReview {
-    width: 15.8vw; }
+    width: 15.8vw;
+  }
   .selectedWeapon {
-    width: 19.5vw; } }
-
+    width: 19.5vw;
+  }
+}
 @media (min-width: 481px) and (max-width: 800px) {
   * {
-    transition: none; }
+    transition: none;
+  }
   nav {
-    height: 3.5rem; }
-    nav a img {
-      height: 40px;
-      width: 40px; }
+    height: 3.5rem;
+  }
+  nav a img {
+    height: 40px;
+    width: 40px;
+  }
   .navbar {
     font-size: 3.7vw;
     gap: 0px;
     width: 100vw;
-    justify-content: space-evenly; }
-  .selectedMask, .selectedReview, .selectedWeapon, .selectedSound {
+    justify-content: space-evenly;
+  }
+  .selectedMask {
     background-color: transparent;
     box-shadow: none;
     height: auto;
-    width: auto; }
+    width: auto;
+  }
   .selectedReview {
     background-color: transparent;
     box-shadow: none;
     height: auto;
-    width: auto; }
+    width: auto;
+  }
   .selectedSound {
     background-color: transparent;
     box-shadow: none;
     height: auto;
-    width: auto; }
+    width: auto;
+  }
   .selectedWeapon {
     background-color: transparent;
     box-shadow: none;
     height: auto;
-    width: auto; }
+    width: auto;
+  }
   .mainTitle {
     background-image: url(https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-size: cover;
     background-repeat: no-repeat;
     display: grid;
-    height: 100vh; }
+    height: 100vh;
+  }
   .center {
     max-width: 100%;
     max-height: 100vh;
-    margin: auto; }
+    margin: auto;
+  }
   .arrow {
-    width: 10vw; }
+    width: 10vw;
+  }
   h2 {
     font-size: 8vw;
     margin-left: 3rem;
     margin-right: 3rem;
     margin-bottom: 1rem;
-    margin-top: 2rem; }
+    margin-top: 2rem;
+  }
   .HM1 {
-    display: none; }
+    display: none;
+  }
   .indexBox {
     margin: 0px;
     margin-right: 30px;
     margin-left: 30px;
     font-size: 4vw;
-    flex-direction: column; }
-    .indexBox img {
-      height: 170px; }
+    flex-direction: column;
+  }
+  .indexBox img {
+    height: 170px;
+  }
   .HMdescription {
     margin: 0px;
     margin-left: 2rem;
     margin-right: 2rem;
     flex-direction: column-reverse;
-    font-size: 4vw; }
-    .HMdescription img {
-      height: auto;
-      width: 70vw; }
+    font-size: 4vw;
+  }
+  .HMdescription img {
+    height: auto;
+    width: 70vw;
+  }
   .videoFlex iframe {
     border-radius: 40px;
     border: solid white 5px;
     width: 85vw;
-    height: 350px; }
+    height: 350px;
+  }
   .splitBar {
-    margin: 30px; }
+    margin: 30px;
+  }
   .navText {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .cardFlex {
     justify-content: center;
     gap: 60px;
-    font-size: 5vw; }
-  .reviewCard, .maskCard, .weaponCard, .soundCard {
+    font-size: 5vw;
+  }
+  .reviewCard {
     width: 35vw;
-    height: 350px; }
+    height: 350px;
+  }
   .maskCard {
     width: 35vw;
-    height: 350px; }
+    height: 350px;
+  }
   .weaponCard {
     width: 35vw;
-    height: 350px; }
+    height: 350px;
+  }
   .soundCard {
     width: 35vw;
-    height: 350px; }
+    height: 350px;
+  }
   .imgLogo {
     width: 45vw;
-    height: 100%; }
+    height: 100%;
+  }
   .reviewBox {
     flex-wrap: wrap;
     margin-left: 30px;
-    margin-right: 30px; }
-    .reviewBox p {
-      margin-top: 30px;
-      margin-bottom: 30px;
-      font-size: 4.2vw;
-      text-align: center; }
+    margin-right: 30px;
+  }
+  .reviewBox p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 4.2vw;
+    text-align: center;
+  }
   .imgScore {
     margin-top: 0;
     height: 15vw;
-    width: 15vw; }
+    width: 15vw;
+  }
   .giveOpinion {
     font-size: 35px;
     margin-right: 30px;
-    margin-left: 30px; }
+    margin-left: 30px;
+  }
   .opinionBox {
     margin-right: 30px;
-    margin-left: 30px; }
+    margin-left: 30px;
+  }
   .scoreBox {
     justify-content: center;
     width: 80vw;
-    gap: 3px; }
+    gap: 3px;
+  }
   .redScore, .yellowScore, .greenScore {
     width: 6vw;
     height: 6vw;
-    font-size: 3vw; }
+    font-size: 3vw;
+  }
   .buttonFlex {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 0px; }
+    margin-right: 0px;
+  }
   .cardFlex:hover > :not(:hover) {
-    opacity: 1; }
-  .reviewCard:hover, .maskCard:hover, .weaponCard:hover, .soundCard:hover, .maskCard:hover, .weaponCard:hover, .soundCard:hover {
-    transform: none; }
+    opacity: 1;
+  }
+  .reviewCard:hover, .maskCard:hover, .weaponCard:hover, .soundCard:hover {
+    transform: none;
+  }
   .soundBox {
-    border: 10px solid white; }
+    border: 10px solid white;
+  }
   .listeners {
-    font-size: 25px; }
+    font-size: 25px;
+  }
   textarea {
     width: 70vw;
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .maskBox {
     display: grid;
-    grid-template-areas: "mask mask" "tau desc";
+    grid-template-areas: "mask mask" "tau desc";
     justify-content: center;
     align-items: center;
     margin: 0px;
-    margin-bottom: 30px; }
-    .maskBox img {
-      grid-area: mask;
-      height: 25vw;
-      width: 100vw;
-      aspect-ratio: 1;
-      object-fit: contain;
-      display: grid;
-      justify-content: center;
-      margin: 0px;
-      background: linear-gradient(0deg, #e28e17 0%, #e51671 100%);
-      justify-items: center;
-      border: solid white 3px; }
+    margin-bottom: 30px;
+  }
+  .maskBox img {
+    grid-area: mask;
+    height: 25vw;
+    width: 100vw;
+    aspect-ratio: 1;
+    object-fit: contain;
+    display: grid;
+    justify-content: center;
+    margin: 0px;
+    background: linear-gradient(0deg, rgb(226, 142, 23) 0%, rgb(229, 22, 113) 100%);
+    justify-items: center;
+    border: solid white 3px;
+  }
   .TAU {
     grid-area: tau;
     font-family: "Justice Condensed Outline";
@@ -723,7 +848,8 @@ footer {
     font-size: 3vw;
     margin: 0px;
     margin-right: 5px;
-    height: auto; }
+    height: auto;
+  }
   .description {
     margin: 0px;
     grid-area: desc;
@@ -733,7 +859,8 @@ footer {
     align-items: flex-end;
     text-align: start;
     font-size: 3.3vw;
-    -webkit-text-stroke: 1.1px black; }
+    -webkit-text-stroke: 1.1px black;
+  }
   .backMask {
     position: none;
     top: 0;
@@ -745,192 +872,240 @@ footer {
     width: 0px;
     background: none;
     z-index: auto;
-    border: none; }
-    .backMask::before {
-      border: none;
-      content: "";
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      right: 0px;
-      bottom: 0px;
-      z-index: auto; }
+    border: none;
+  }
+  .backMask::before {
+    border: none;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: auto;
+  }
   .imgWeapon {
     margin-right: 5vw;
     margin-left: 5vw;
-    gap: 30px; }
-    .imgWeapon img:hover {
-      transition: 0s;
-      width: auto;
-      height: auto; }
-    .imgWeapon img:not(:hover) {
-      transition: 0s; }
+    gap: 30px;
+  }
+  .imgWeapon img:hover {
+    transition: 0s;
+    width: auto;
+    height: auto;
+  }
+  .imgWeapon img:not(:hover) {
+    transition: 0s;
+  }
   footer p {
-    font-size: 10px; } }
-
+    font-size: 10px;
+  }
+}
 @media (max-width: 480px) {
   * {
-    transition: none; }
+    transition: none;
+  }
   nav {
-    height: 3.5rem; }
-    nav a img {
-      height: 30px;
-      width: 30px; }
+    height: 3.5rem;
+  }
+  nav a img {
+    height: 30px;
+    width: 30px;
+  }
   .navbar {
     font-size: 3.7vw;
     gap: 0px;
     width: 100vw;
-    justify-content: space-evenly; }
-  .selectedMask, .selectedReview, .selectedWeapon, .selectedSound {
+    justify-content: space-evenly;
+  }
+  .selectedMask {
     background-color: unset;
     box-shadow: none;
     height: auto;
-    width: auto; }
+    width: auto;
+  }
   .selectedReview {
     background-color: unset;
     box-shadow: none;
     height: auto;
-    width: auto; }
+    width: auto;
+  }
   .selectedSound {
     background-color: unset;
     box-shadow: none;
     height: auto;
-    width: auto; }
+    width: auto;
+  }
   .selectedWeapon {
     background-color: unset;
     box-shadow: none;
     height: auto;
-    width: auto; }
+    width: auto;
+  }
   h3 {
     margin-left: 30px;
     font-size: 25px;
-    -webkit-text-stroke: 1.3px black; }
+    -webkit-text-stroke: 1.3px black;
+  }
   .mainTitle {
     background-image: url(https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; }
+    height: 100vh;
+  }
   .center {
     width: 90vw;
     height: auto;
-    margin: auto; }
+    margin: auto;
+  }
   .arrow {
-    width: 60px; }
+    width: 60px;
+  }
   h2 {
     font-size: 50px;
     padding: 10px;
     margin: 0px;
     margin-bottom: 1rem;
-    margin-top: 2rem; }
+    margin-top: 2rem;
+  }
   .HM1 {
-    display: none; }
+    display: none;
+  }
   .indexBox {
     margin: 0px;
     margin-right: 30px;
     margin-left: 30px;
     font-size: 20px;
-    flex-direction: column; }
-    .indexBox img {
-      height: 150px; }
+    flex-direction: column;
+  }
+  .indexBox img {
+    height: 150px;
+  }
   .HMdescription {
     margin: 0px;
     margin-left: 2rem;
     margin-right: 2rem;
     flex-direction: column-reverse;
-    font-size: 20px; }
-    .HMdescription img {
-      height: auto;
-      width: 85vw; }
+    font-size: 20px;
+  }
+  .HMdescription img {
+    height: auto;
+    width: 85vw;
+  }
   .videoFlex iframe {
     border-radius: 40px;
     border: solid white 5px;
     width: 85vw;
-    height: 250px; }
+    height: 250px;
+  }
   .splitBar {
-    margin: 30px; }
+    margin: 30px;
+  }
   .navText {
-    font-size: 20px; }
+    font-size: 20px;
+  }
   .cardFlex {
     justify-content: center;
     gap: 30px;
-    font-size: 9vw; }
-  .reviewCard, .maskCard, .weaponCard, .soundCard {
+    font-size: 9vw;
+  }
+  .reviewCard {
     width: 90vw;
-    height: 100px; }
+    height: 100px;
+  }
   .maskCard {
     width: 90vw;
-    height: 100px; }
+    height: 100px;
+  }
   .weaponCard {
     width: 90vw;
-    height: 100px; }
+    height: 100px;
+  }
   .soundCard {
     width: 90vw;
-    height: 100px; }
+    height: 100px;
+  }
   .imgLogo {
     width: 18rem;
-    height: 100%; }
+    height: 100%;
+  }
   .reviewBox {
     flex-wrap: wrap;
     margin-left: 30px;
-    margin-right: 30px; }
-    .reviewBox p {
-      margin-top: 20px;
-      margin-bottom: 30px;
-      font-size: 22px;
-      text-align: center; }
+    margin-right: 30px;
+  }
+  .reviewBox p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 22px;
+    text-align: center;
+  }
   .imgScore {
     height: 100px;
-    width: 100px; }
+    width: 100px;
+  }
   .giveOpinion {
-    -webkit-text-stroke: black .8px;
+    -webkit-text-stroke: black 0.8px;
     font-size: 30px;
     margin-right: 30px;
-    margin-left: 30px; }
+    margin-left: 30px;
+  }
   .opinionBox {
     margin-right: 30px;
-    margin-left: 30px; }
+    margin-left: 30px;
+  }
   .scoreBox {
     justify-content: center;
     width: 80vw;
-    gap: 3px; }
+    gap: 3px;
+  }
   .redScore, .yellowScore, .greenScore {
     width: 6vw;
     height: 6vw;
-    font-size: 15px; }
+    font-size: 15px;
+  }
   .buttonFlex {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-right: 0px; }
+    margin-right: 0px;
+  }
   .cardFlex:hover > :not(:hover) {
-    opacity: 1; }
-  .reviewCard:hover, .maskCard:hover, .weaponCard:hover, .soundCard:hover, .maskCard:hover, .weaponCard:hover, .soundCard:hover {
-    transform: none; }
+    opacity: 1;
+  }
+  .reviewCard:hover, .maskCard:hover, .weaponCard:hover, .soundCard:hover {
+    transform: none;
+  }
   .soundBox {
-    border: 10px solid white; }
+    border: 10px solid white;
+  }
   .listeners {
-    font-size: 25px; }
+    font-size: 25px;
+  }
   textarea {
     width: 70vw;
-    font-size: 12px; }
+    font-size: 12px;
+  }
   .maskBox {
     display: grid;
-    grid-template-areas: "mask mask" "tau desc";
+    grid-template-areas: "mask mask" "tau desc";
     justify-content: center;
     align-items: center;
     margin: 0px;
-    margin-bottom: 30px; }
-    .maskBox img {
-      grid-area: mask;
-      height: 10rem;
-      width: 100vw;
-      aspect-ratio: 1;
-      object-fit: contain;
-      display: grid;
-      justify-content: normal;
-      margin: 0px;
-      background: linear-gradient(0deg, #e28e17 0%, #e51671 100%);
-      justify-items: normal;
-      border: solid white 3px; }
+    margin-bottom: 30px;
+  }
+  .maskBox img {
+    grid-area: mask;
+    height: 10rem;
+    width: 100vw;
+    aspect-ratio: 1;
+    object-fit: contain;
+    display: grid;
+    justify-content: normal;
+    margin: 0px;
+    background: linear-gradient(0deg, rgb(226, 142, 23) 0%, rgb(229, 22, 113) 100%);
+    justify-items: normal;
+    border: solid white 3px;
+  }
   .TAU {
     grid-area: tau;
     font-family: "Justice Condensed Outline";
@@ -944,7 +1119,8 @@ footer {
     margin: 0px;
     margin-top: 10px;
     margin-right: 5px;
-    height: 60px; }
+    height: 60px;
+  }
   .description {
     grid-area: desc;
     font-family: "Justice Italic";
@@ -954,7 +1130,8 @@ footer {
     margin-top: 10px;
     text-align: start;
     font-size: 3.5vw;
-    -webkit-text-stroke: .3vw black; }
+    -webkit-text-stroke: 0.3vw black;
+  }
   .backMask {
     position: none;
     top: none;
@@ -966,33 +1143,45 @@ footer {
     width: 0px;
     background: none;
     z-index: none;
-    border: none; }
-    .backMask::before {
-      border: none;
-      content: "";
-      position: absolute;
-      top: 0px;
-      left: 0px;
-      right: 0px;
-      bottom: 0px;
-      z-index: none; }
+    border: none;
+  }
+  .backMask::before {
+    border: none;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: none;
+  }
   .imgWeapon img {
     aspect-ratio: 1/1;
     height: auto;
-    width: 35vw; }
-    .imgWeapon img:hover {
-      transition: 0s;
-      width: 35vw;
-      height: auto; }
-    .imgWeapon img:not(:hover) {
-      transition: 0s; }
+    width: 35vw;
+  }
+  .imgWeapon img:hover {
+    transition: 0s;
+    width: 35vw;
+    height: auto;
+  }
+  .imgWeapon img:not(:hover) {
+    transition: 0s;
+  }
   .soundBox iframe {
-    height: 170px; }
+    height: 170px;
+  }
   .textRanking {
     font-size: 50px;
-    -webkit-text-stroke: 1.5px black; }
+    -webkit-text-stroke: 1.5px black;
+  }
   .listeners {
     font-size: 25px;
-    -webkit-text-stroke: 1.5px black; }
+    -webkit-text-stroke: 1.5px black;
+  }
   footer p {
-    font-size: 10px; } }
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
