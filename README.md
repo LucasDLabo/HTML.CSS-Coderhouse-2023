@@ -1,6 +1,11 @@
 # Curso de Desarrollo Web - Ene. 2023
-![](https://jobs.coderhouse.com/assets/logos_coderhouse.png)
-En este curso realizado en Coderhouse, el objetivo principal fue el de desarrollar una página web estática desde cero con una temática a decision personal, utilizando buenos habitos de programación, semanticá y organización. Adémas de aprender sobre manejo de versiones, diseño, presupuestado y requerimientos.
+
+<p align="center">
+  <img src="https://jobs.coderhouse.com/assets/logos_coderhouse.png" width="500" alt="Coderhouse"/> 
+</p>
+
+En este curso realizado en Coderhouse, el objetivo principal fue el de desarrollar una página web estática desde cero con una temática a decisión personal, utilizando buenos hábitos de programación, semántica y organización. Además de aprender sobre manejo de versiones, diseño, presupuestado y análisis de requerimientos.
+
 ## ✨ Puntos destacables:
 - _Diseño responsive_
 - _Empleo de controlador de versiones con Git y Github_
@@ -16,6 +21,10 @@ En este curso realizado en Coderhouse, el objetivo principal fue el de desarroll
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" width="80" alt="Figma"/>
 </p>
 
+## 🔗 Link
+
+[Ver el sitio en línea](https://lucasdlabo.github.io/HTML.CSS-Coderhouse-2023/)
+
 ------------
 ## 🏅 Temática escogida
 <p align="center">
@@ -23,8 +32,8 @@ En este curso realizado en Coderhouse, el objetivo principal fue el de desarroll
 </p>
 Hotline Miami es un videojuego 2D shooter en donde se debe de eliminar a todos los enemigos del nivel para poder continuar con el siguiente. El mismo cuenta con múltiples desbloqueables, formas de jugar y, a mi gusto, una increíble banda sonora.
 
-Por esto mismo, decidí enfocar mi primera página web en uno de mis videojuegos favoritos y poder mostrar diferentes puntos y contenido de Hotline Miami 1.
-#### Apartados de la página:
+Por esto mismo, decidí enfocar mi primera página web en uno de mis videojuegos favoritos y poder mostrar diferentes puntos y contenido de Hotline Miami.
+### Apartados de la página:
 - _Reviews y puntaje del videojuego_
 - _Máscaras disponibles_
 - _Armas disponibles_
@@ -54,22 +63,23 @@ Por esto mismo, decidí enfocar mi primera página web en uno de mis videojuegos
   <img src="./assets/readme/courseDetails.png" alt="Asistencia del 95% y 10 en la calificicación del proyecto final"/> 
 </p>
 
+## 📜 Certificado de finalización 
+Curso finalizado el **12 de febrero del 2023**.
+[Ver certificado](https://pub.coderhouse.com/legacy-certificates/63e94ee13b4e73000e216029?lang=es)
 
 ------------
 
 ## ℹ️ Otros
 ### Fuentes utilizadas
-<a href="https://www.dafont.com/justice.font" title="Justice Italic">
-  <img src="https://www.dafont.com/img/preview/j/u/justice13.png" width="200" alt="Font Justice Italic"/> 
-</a>
+
+Fuente _Justice_ usada de [Dafont](https://www.dafont.com/justice.font)
+
+<img src="./assets/readme/justice13.png" width="200" title="Justice Italic" alt="Font Justice Italic"/>
 <br>
-<a href="https://www.dafont.com/justice.font" title="Justice Condensed Outline">
-  <img src="https://www.dafont.com/img/preview/j/u/justice10.png" width="200" alt="Font Justice Condensed Outline"/> 
-</a>
+<img src="/assets/readme/justice10.png" width="200" title="Justice Condensed Outline" alt="Font Justice Condensed Outline"/> 
 <br>
-<a href="https://www.dafont.com/justice.font" title="Justice Expanded">
-  <img src="https://www.dafont.com/img/preview/j/u/justice9.png" width="220" alt="Font Justice Expanded"/> 
-</a>
+<img src="./assets/readme/justice9.png" width="220" title="Justice Expanded" alt="Font Justice Expanded"/> 
+
 
 ### Aclaración
 Sitio web con fines meramente ilustrativos y educativos. Todos los derechos corresponden a Dennaton Games y Devolver Digital. 
