@@ -1,31 +1,60 @@
 @use "../utilities/mixins";
 @use "../utilities/variables";
+@use "../base/typo";
 
+.maskSection{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .maskBox{
+    display: flex;
+    width: auto;
+    gap: 3vw;
+}
+.imgContainer{
+    display: flex;
+    width: 250px;
+    aspect-ratio: 1;
+    object-fit: contain;
+    justify-content: center;
+}
+.pContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: typo.$font-text;
+    gap: 2vw;
+}
+.maskTitle{
     @include mixins.flex(row, flex-start, center);
-    margin-bottom: 20px;
-    margin-left: 9vw;
-    img{
-        width: 18vw;
-        aspect-ratio: 1;
-        object-fit: contain;
-        display: flex;
-        justify-content: start;
-        margin-right: 50px;
-    }
+    text-align: end;
+    font-family: variables.$typo2;
+    color: white;
+    height: 100%;
+}
+.maskDescription{
+    @include mixins.flex(row, flex-start, center);
+    height: 100%;
+    font-family: variables.$typo1;
+    -webkit-text-stroke: 1.5px black;
+    padding-top: .3rem;
 }
 .backMask{
     position: fixed;
-    top: -10px;
-    left: 8.9vw;
-    bottom: -10px;
-    height: auto;
-    width: 18vw;   
+    top: 0;
+    height: 100%;
+    width: 250px;   
     background: linear-gradient(90deg, rgba(226,142,23,1) 0%, rgba(229,22,113,1) 100%);
     z-index: -1;
-    border: solid white 9px;
+    border-right: 9px solid white;
+    border-left: 9px solid white;
     &::before{
-        border: solid black 3px;
+        border-right: 3px solid black;
+        border-left: 3px solid black;
         content: "";
         position: absolute;
         top: -15px;
@@ -35,25 +64,29 @@
         z-index: -1;
     }
 }
-.TAU{
-    @include mixins.flex(row, center, flex-end);
-    font-family: variables.$typo2;
-    color: white;
-    text-align: right;
-    font-size: 2.5vw;
-    margin-left: -2vw;
 
-    margin-top: 20px;
-    margin-bottom:20px; 
-    margin-right: 20px;
-    height: 160px;
-}
-.description{
-    @include mixins.flex(row, flex-start, flex-end);
-    font-family: variables.$typo1;
-    color: white;
-    height: 160px;
-    text-align: left;
-    font-size: 2.5vw;
-    -webkit-text-stroke: 1.5px black;
+.scrollTop{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #F765B8;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s;
+    &:hover{
+        background-color: #00FFEE;
+    }
+    &:visited{
+        font-weight: bolder;
+        color: white;
+    }
+    &:link{
+        font-weight: bolder;
+        color: white;
+    }
 }
