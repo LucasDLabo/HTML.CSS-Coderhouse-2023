@@ -232,13 +232,15 @@ body {
 }
 
 .cardFlex {
+  margin-right: 10%;
+  margin-left: 10%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: normal;
-  gap: 5vw;
+  justify-content: space-evenly;
   font-family: "Justice Italic";
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: white;
   -webkit-text-stroke: 2px black;
   margin-bottom: 4rem;
@@ -250,8 +252,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 6.5em;
-  height: 9em;
+  width: 15vw;
+  aspect-ratio: 5/7;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -275,41 +277,16 @@ body {
   background-image: url(../../assets/img/index/cardSoundtrack.png), linear-gradient(180deg, rgb(195, 0, 96) 13%, rgb(21, 255, 246) 100%);
 }
 
-.cardFlex:hover > :not(:hover) {
-  transition: 0.3s;
+.cardFlex:has(.card:hover) .card:not(:hover) {
   opacity: 0.5;
 }
 
-.reviewCard:hover, .maskCard:hover, .weaponCard:hover, .soundCard:hover {
-  transition: 0.3s;
-  transform: scale(1.2, 1.2);
+.card {
+  transition: transform 0.1s, opacity 0.3s;
+  transform: scale(1);
 }
-.reviewCard:not(:hover), .maskCard:not(:hover), .weaponCard:not(:hover), .soundCard:not(:hover) {
-  transition: 0.3s;
-}
-
-.maskCard:hover {
-  transition: 0.3s;
-  transform: scale(1.2, 1.2);
-}
-.maskCard:not(:hover) {
-  transition: 0.3s;
-}
-
-.weaponCard:hover {
-  transition: 0.3s;
-  transform: scale(1.2, 1.2);
-}
-.weaponCard:not(:hover) {
-  transition: 0.3s;
-}
-
-.soundCard:hover {
-  transition: 0.3s;
-  transform: scale(1.2, 1.2);
-}
-.soundCard:not(:hover) {
-  transition: 0.3s;
+.card:hover {
+  transform: scale(1.2);
 }
 
 .mainContainer {
