@@ -14,12 +14,11 @@
         border-radius: 20%;
         box-shadow: 10px 10px 10px black;
         &:hover{
-            transition: .2s;
-            width: 12vw;
-            height: 12vw;
+            transition: .1s;
+            transform: scale(1.1,1.1);
         }
         &:not(:hover){
-            transition: .3s;
+            transition: .1s;
         }
     }
 }
