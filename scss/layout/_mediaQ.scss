@@ -482,10 +482,9 @@
         gap: 3px;
     
     }
-    .redScore, .yellowScore, .greenScore{
-        width: 6vw;
-        height: 6vw;
+    .redScore1, .redScore2, .redScore3, .redScore4, .yellowScore5, .yellowScore6, .yellowScore7, .greenScore8, .greenScore9, .greenScore10{
         font-size: 15px;
+        box-shadow: 2px 2px white;
     }
     .buttonFlex{
         margin-top: 20px;
@@ -505,7 +504,7 @@
         font-size: 25px;
     }
     textarea{
-        width: 70vw;
+        width: 60vw;
         font-size: 12px;
     }
     // mask.html
