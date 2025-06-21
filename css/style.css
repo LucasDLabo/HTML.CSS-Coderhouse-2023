@@ -96,38 +96,31 @@ nav {
 .selectedMask, .selectedSound, .selectedWeapon, .selectedReview {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-end;
   background-color: #00FFEE;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
   height: 6vw;
   box-shadow: 15px 15px black;
   text-align: left;
-  width: 120px;
+  width: 100%;
 }
 .selectedMask a:visited, .selectedSound a:visited, .selectedWeapon a:visited, .selectedReview a:visited {
   color: black;
   -webkit-text-stroke: 1.5px white;
 }
 
-.selectedReview {
-  width: 160px;
-}
 .selectedReview a:visited {
   color: black;
   -webkit-text-stroke: 1.5px white;
 }
 
-.selectedWeapon {
-  width: 190px;
-}
 .selectedWeapon a:visited {
   color: black;
   -webkit-text-stroke: 1.5px white;
 }
 
-.selectedSound {
-  width: 255px;
-}
 .selectedSound a:visited {
   color: black;
   -webkit-text-stroke: 1.5px white;
