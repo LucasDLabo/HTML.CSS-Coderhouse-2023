@@ -1,5 +1,5 @@
 // Tablet
-@media (min-width:481px) and (max-width: 1020px) {
+@media (min-width:601px) and (max-width: 1050px) {
     *{
         transition: none; 
     }
@@ -74,7 +74,8 @@
         font-size: 4vw;
         flex-direction: column;
         img{
-            height: 170px;
+            width: 55vw;
+            height: auto;
         }
     }
     .HMdescription{
@@ -109,19 +110,21 @@
     }
     .reviewCard{
         width: 35vw;
-        height: 350px;
+        aspect-ratio: 1/1;
+        background-position: 0% 20%;
     }
     .maskCard{
         width: 35vw;
-        height: 350px;
+        aspect-ratio: 1/1;
     }
     .weaponCard{
         width: 35vw;
-        height: 350px;
+        aspect-ratio: 1/1;
+        background-position: 0% 20%;
     }
     .soundCard{
         width: 35vw;
-        height: 350px;
+        aspect-ratio: 1/1;
     }
     // review.html
     .imgLogo{
@@ -282,7 +285,7 @@
 }
 
 // Dispositivo Movil
-@media (max-width: 480px){
+@media (max-width: 600px){
     *{
         transition: none; 
     }

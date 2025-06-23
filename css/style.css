@@ -627,7 +627,7 @@ footer p {
   font-size: 20px;
 }
 
-@media (min-width: 481px) and (max-width: 1020px) {
+@media (min-width: 601px) and (max-width: 1050px) {
   * {
     transition: none;
   }
@@ -701,7 +701,8 @@ footer p {
     flex-direction: column;
   }
   .indexBox img {
-    height: 170px;
+    width: 55vw;
+    height: auto;
   }
   .HMdescription {
     margin: 0px;
@@ -733,19 +734,21 @@ footer p {
   }
   .reviewCard {
     width: 35vw;
-    height: 350px;
+    aspect-ratio: 1/1;
+    background-position: 0% 20%;
   }
   .maskCard {
     width: 35vw;
-    height: 350px;
+    aspect-ratio: 1/1;
   }
   .weaponCard {
     width: 35vw;
-    height: 350px;
+    aspect-ratio: 1/1;
+    background-position: 0% 20%;
   }
   .soundCard {
     width: 35vw;
-    height: 350px;
+    aspect-ratio: 1/1;
   }
   .imgLogo {
     width: 45vw;
@@ -893,7 +896,7 @@ footer p {
     font-size: 10px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   * {
     transition: none;
   }
