@@ -854,6 +854,24 @@ footer p {
   .imgWeapon img:not(:hover) {
     transition: 0s;
   }
+  .soundBox {
+    width: auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .soundBox iframe {
+    height: 170px;
+  }
+  .textRanking {
+    font-size: 50px;
+    -webkit-text-stroke: 0.3vw black;
+  }
+  .listeners {
+    margin-top: 10px;
+    width: 100%;
+    font-size: 4.1vw;
+    -webkit-text-stroke: 0.25vw black;
+  }
   footer p {
     font-size: 10px;
   }
