@@ -12,6 +12,11 @@
             }
         }
     }
+    h3{
+        margin-left: 30px;
+        font-size: 30px;
+        -webkit-text-stroke:1.3px black ;
+    }
     .navbar{
         font-size: 3.7vw;
         gap: 0px;
@@ -201,8 +206,6 @@
     .imgContainer{
         width: 20vw;
     }
-    .pContainer{
-    }
     .maskTitle{
         font-size: 2.85vw;
     }
@@ -212,12 +215,15 @@
     .backMask{
         width: 20vw;
     }
+    //weapon.html
     .imgWeapon{
-
         margin-right: 5vw;
-        margin-left: 5vw;
+        margin-left: 5vw;   
         gap: 30px;
         img{
+            width: 150px;
+            height: auto;
+            aspect-ratio: 1/1;
             &:hover{
                 transition: 0s;
                 width: auto;

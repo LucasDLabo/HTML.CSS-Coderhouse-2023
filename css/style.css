@@ -638,6 +638,11 @@ footer p {
     height: 40px;
     width: 40px;
   }
+  h3 {
+    margin-left: 30px;
+    font-size: 30px;
+    -webkit-text-stroke: 1.3px black;
+  }
   .navbar {
     font-size: 3.7vw;
     gap: 0px;
@@ -835,6 +840,11 @@ footer p {
     margin-right: 5vw;
     margin-left: 5vw;
     gap: 30px;
+  }
+  .imgWeapon img {
+    width: 150px;
+    height: auto;
+    aspect-ratio: 1/1;
   }
   .imgWeapon img:hover {
     transition: 0s;
