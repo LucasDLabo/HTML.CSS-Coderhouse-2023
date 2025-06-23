@@ -627,26 +627,7 @@ footer p {
   font-size: 20px;
 }
 
-@media (min-width: 1024px) {
-  .navbar {
-    font-size: 4vw;
-    align-items: flex-start;
-    gap: 3.7vw;
-  }
-  .selectedSound {
-    width: 26vw;
-  }
-  .selectedMask {
-    width: 11.8vw;
-  }
-  .selectedReview {
-    width: 15.8vw;
-  }
-  .selectedWeapon {
-    width: 19.5vw;
-  }
-}
-@media (min-width: 800px) {
+@media (max-width: 1024px) {
   * {
     transition: none;
   }
@@ -917,40 +898,53 @@ footer p {
     transition: none;
   }
   nav {
-    height: 3.5rem;
+    height: 50px;
   }
   nav a img {
     height: 30px;
     width: 30px;
   }
   .navbar {
+    width: 100%;
     font-size: 3.7vw;
     gap: 0px;
     justify-content: space-evenly;
+    margin-right: 0px;
+  }
+  .navbar li {
+    margin: 0px;
   }
   .selectedMask {
-    background-color: unset;
-    box-shadow: none;
-    height: auto;
     width: auto;
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+    height: 50px;
+    box-shadow: 2vw 2vw black;
+    text-align: left;
   }
   .selectedReview {
-    background-color: unset;
-    box-shadow: none;
-    height: auto;
     width: auto;
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+    height: 50px;
+    box-shadow: 2vw 2vw black;
+    text-align: left;
   }
   .selectedSound {
-    background-color: unset;
-    box-shadow: none;
-    height: auto;
     width: auto;
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+    height: 50px;
+    box-shadow: 2vw 2vw black;
+    text-align: left;
   }
   .selectedWeapon {
-    background-color: unset;
-    box-shadow: none;
-    height: auto;
     width: auto;
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+    height: 50px;
+    box-shadow: 2vw 2vw black;
+    text-align: left;
   }
   h3 {
     margin-left: 30px;
