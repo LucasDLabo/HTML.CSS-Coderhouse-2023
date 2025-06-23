@@ -632,11 +632,11 @@ footer p {
     transition: none;
   }
   nav {
-    height: 3.5rem;
+    height: 70px;
   }
   nav a img {
-    height: 40px;
-    width: 40px;
+    height: auto;
+    width: 55px;
   }
   h3 {
     margin-left: 30px;
@@ -644,34 +644,46 @@ footer p {
     -webkit-text-stroke: 1.3px black;
   }
   .navbar {
+    width: 100%;
     font-size: 3.7vw;
     gap: 0px;
-    width: 100vw;
     justify-content: space-evenly;
+    margin-right: 0px;
+  }
+  .navbar li {
+    margin: 0px;
   }
   .selectedMask {
-    background-color: transparent;
-    box-shadow: none;
-    height: auto;
     width: auto;
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+    height: 70px;
+    box-shadow: 2vw 2vw black;
+    text-align: left;
   }
   .selectedReview {
-    background-color: transparent;
-    box-shadow: none;
-    height: auto;
     width: auto;
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+    height: 70px;
+    box-shadow: 2vw 2vw black;
+    text-align: left;
   }
   .selectedSound {
-    background-color: transparent;
-    box-shadow: none;
-    height: auto;
     width: auto;
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+    height: 70px;
+    box-shadow: 2vw 2vw black;
+    text-align: left;
   }
   .selectedWeapon {
-    background-color: transparent;
-    box-shadow: none;
-    height: auto;
     width: auto;
+    padding-left: 1vw;
+    padding-right: 1.5vw;
+    height: 70px;
+    box-shadow: 2vw 2vw black;
+    text-align: left;
   }
   .mainTitle {
     background-image: url(https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
@@ -872,8 +884,11 @@ footer p {
     font-size: 4.1vw;
     -webkit-text-stroke: 0.25vw black;
   }
+  footer {
+    height: 40px;
+  }
   footer p {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
 @media (max-width: 600px) {
