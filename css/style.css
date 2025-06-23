@@ -627,7 +627,7 @@ footer p {
   font-size: 20px;
 }
 
-@media (max-width: 1005px) and (min-width: 801px) {
+@media (min-width: 1024px) {
   .navbar {
     font-size: 4vw;
     align-items: flex-start;
@@ -646,7 +646,7 @@ footer p {
     width: 19.5vw;
   }
 }
-@media (min-width: 481px) and (max-width: 800px) {
+@media (min-width: 800px) {
   * {
     transition: none;
   }
@@ -926,7 +926,6 @@ footer p {
   .navbar {
     font-size: 3.7vw;
     gap: 0px;
-    width: 100vw;
     justify-content: space-evenly;
   }
   .selectedMask {
@@ -1097,8 +1096,9 @@ footer p {
   }
   .maskBox {
     flex-direction: column;
+    width: 100vw;
     gap: 0px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   .imgContainer {
     background: linear-gradient(0deg, rgb(226, 142, 23) 0%, rgb(229, 22, 113) 100%);
@@ -1108,19 +1108,22 @@ footer p {
     height: 150px;
   }
   .imgContainer img {
+    width: 100%;
     object-fit: contain;
   }
   .pContainer {
-    font-size: 20px;
+    gap: 5px;
     justify-content: center;
   }
   .maskTitle {
-    height: 23vw;
+    font-size: 3.7vw;
+    height: 21vw;
   }
   .maskDescription {
-    line-height: 20px;
-    height: 23vw;
-    font-size: 15px;
+    font-size: 3.7vw;
+    line-height: 3.9vw;
+    -webkit-text-stroke: 0.25vw black;
+    height: 21vw;
   }
   .backMask {
     position: none;
@@ -1144,6 +1147,11 @@ footer p {
     right: 0px;
     bottom: 0px;
     z-index: none;
+  }
+  .scrollTop {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
   }
   .imgWeapon img {
     aspect-ratio: 1/1;
