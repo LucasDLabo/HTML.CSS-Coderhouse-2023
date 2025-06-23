@@ -509,54 +509,31 @@
     }
     // mask.html
     .maskBox{
-        display: grid;
-        grid-template-areas: 
-        "mask mask"
-        "tau desc"
-        ;
-        justify-content: center;
-        align-items: center;   
-        margin: 0px;
-        margin-bottom: 30px;
+        flex-direction: column;
+        gap: 0px;
+        margin-bottom: 1rem;
+    }
+    .imgContainer{
+        background: linear-gradient(0deg, rgba(226,142,23,1) 0%, rgba(229,22,113,1) 100%);
+        border-top: solid white 3px ;
+        border-bottom: solid white 3px ;
+        width: 100%;
+        height: 150px;
         img{
-            grid-area: mask;
-            height: 10rem;
-            width: 100vw;
-            aspect-ratio: 1;
             object-fit: contain;
-            display: grid;
-            justify-content: normal;
-            margin: 0px;
-            background: linear-gradient(0deg, rgba(226,142,23,1) 0%, rgba(229,22,113,1) 100%);
-            justify-items: normal;
-            border: solid white 3px ;
         }
     }
-    .TAU{
-        grid-area: tau;
-        font-family: "Justice Condensed Outline";
-        color: white;
-        display: grid;
-        justify-content: end; 
-        justify-items: end;   
-        align-items: flex-end;
-        text-align: end;
-        font-size: 3.5vw;
-        margin: 0px;
-        margin-top: 10px;
-        margin-right: 5px;
-        height: 60px;
+    .pContainer{
+        font-size: 20px;
+        justify-content: center;
     }
-    .description{
-        grid-area: desc;
-        font-family: "Justice Italic";
-        color: white;
-        height: 60px;
-        align-items: flex-end;
-        margin-top: 10px;
-        text-align: start;
-        font-size: 3.5vw;
-        -webkit-text-stroke:.3vw black ;
+    .maskTitle{
+        height: 23vw;
+    }
+    .maskDescription{
+        line-height: 20px;
+        height: 23vw;
+        font-size: 15px;
     }
     .backMask{
         position: none;
@@ -581,6 +558,7 @@
             z-index: none;
         }
     }
+    
     .imgWeapon{
         img{
             aspect-ratio: 1/1;
