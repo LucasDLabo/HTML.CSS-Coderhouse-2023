@@ -952,15 +952,12 @@ footer p {
     -webkit-text-stroke: 1.3px black;
   }
   .mainTitle {
-    background-image: url(https://images.unsplash.com/photo-1533106497176-45ae19e68ba2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
-    background-size: cover;
-    background-repeat: no-repeat;
     height: 100vh;
   }
   .center {
-    width: 90vw;
-    height: auto;
-    margin: auto;
+    width: 100%;
+    height: 90vh;
+    object-fit: contain;
   }
   .arrow {
     width: 60px;
@@ -1015,19 +1012,22 @@ footer p {
   }
   .reviewCard {
     width: 90vw;
-    height: 100px;
+    aspect-ratio: 16/5;
+    background-position: 0% 15%;
   }
   .maskCard {
     width: 90vw;
-    height: 100px;
+    aspect-ratio: 16/5;
+    background-position: center;
   }
   .weaponCard {
     width: 90vw;
-    height: 100px;
+    aspect-ratio: 16/5;
+    background-position: 0% 20%;
   }
   .soundCard {
     width: 90vw;
-    height: 100px;
+    aspect-ratio: 16/5;
   }
   .imgLogo {
     width: 18rem;
