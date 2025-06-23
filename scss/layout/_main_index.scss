@@ -15,18 +15,19 @@
     width: 70vw;
 }
 .arrow{
-    width: 5vw;
+    width: 60px;
+    padding: 10px;
     margin-bottom: 20px;
     background-color: lightgray;
     border: solid white 3px;
     border-radius: 15px;
     &:hover{
-        transition: .2s;
-        transform: translate(0px,-20px);
+        transition: .1s;
+        transform: translate(0px,-10px);
 
     }
     &:not(:hover){
-        transition: .3s;
+        transition: .2s;
     }
 }
 .presentation{

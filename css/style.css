@@ -157,18 +157,19 @@ body {
 }
 
 .arrow {
-  width: 5vw;
+  width: 60px;
+  padding: 10px;
   margin-bottom: 20px;
   background-color: lightgray;
   border: solid white 3px;
   border-radius: 15px;
 }
 .arrow:hover {
-  transition: 0.2s;
-  transform: translate(0px, -20px);
+  transition: 0.1s;
+  transform: translate(0px, -10px);
 }
 .arrow:not(:hover) {
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .presentation {
@@ -699,7 +700,8 @@ footer p {
     margin: auto;
   }
   .arrow {
-    width: 10vw;
+    width: 60px;
+    padding: 10px;
   }
   h2 {
     font-size: 8vw;
@@ -1059,12 +1061,12 @@ footer p {
   .giveOpinion {
     -webkit-text-stroke: black 0.8px;
     font-size: 30px;
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
   }
   .opinionBox {
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
   }
   .scoreBox {
     justify-content: center;
@@ -1072,8 +1074,8 @@ footer p {
     gap: 3px;
   }
   .redScore1, .redScore2, .redScore3, .redScore4, .yellowScore5, .yellowScore6, .yellowScore7, .greenScore8, .greenScore9, .greenScore10 {
-    font-size: 15px;
-    box-shadow: 2px 2px white;
+    font-size: 3vw;
+    box-shadow: 0.3vw 0.3vw white;
   }
   .buttonFlex {
     margin-top: 20px;
@@ -1093,7 +1095,7 @@ footer p {
     font-size: 25px;
   }
   textarea {
-    width: 60vw;
+    width: 70vw;
     font-size: 12px;
   }
   .maskBox {
